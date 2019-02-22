@@ -1,0 +1,3 @@
+[submodule "linguistic-context"]
+	path = linguistic-context
+	url = git@github.com:laeubli/parity.git
