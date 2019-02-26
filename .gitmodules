@@ -1,3 +1,9 @@
 [submodule "linguistic-context"]
 	path = linguistic-context
 	url = git@github.com:laeubli/parity.git
+[submodule "raters"]
+	path = raters
+	url = git@github.com:antot/human_parity_mt.git
+[submodule "reference-translations/directionality"]
+	path = reference-translations/directionality
+	url = git@github.com:antot/human_parity_mt.git
