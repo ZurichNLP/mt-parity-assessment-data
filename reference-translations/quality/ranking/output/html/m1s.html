@@ -1,0 +1,813 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <title>Rate Texts</title>
+        <style>
+            body {
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 1.5;
+}
+
+.item {
+	margin-bottom: 3em;
+	width: 100%;
+    float: left;
+    counter-reset: translation-counter;
+    counter-increment: item-counter;
+}
+
+.title {
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.title::before {
+    content: counter(item-counter);
+    padding-right: .5em;
+    font-size: 2.2em;
+    color: lightblue;
+}
+
+@media print {
+    .item {
+    	page-break-after: always;
+        page-break-inside: avoid;
+    }
+		* {
+			font-size: 95%;
+		}
+}
+
+.item > .translation {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.translation::before {
+	counter-increment: translation-counter;
+    content: counter(translation-counter, upper-alpha);
+    font-size: 2.2em;
+    float: left;
+    margin: -.2em .6em 0em 0;
+    color: grey;
+}
+
+.source {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 1.5em;
+}
+
+.instructions {
+	padding: 10px 30px 10px 30px;
+	margin: 2em 5% 3em 5%;
+	background: #F0F8FF;
+	border: 1px solid #B0C4DE;
+}
+
+        </style>
+      </head>
+      <body>
+        <div class="instructions">
+    <h2>Instructions</h2>
+    For each item below,
+    <ol>
+        <li>read all text carefully</li>
+        <li>judge: which text is better English?</li>
+        <li>add your judgement to the online spreadsheet (link sent to you via email). Valid judgements are:
+        <ul>
+            <li><b>A</b> text A is better than B</li>
+            <li><b>B</b> text B is better than A</li>
+            <li><b>X</b> same quality</li>
+        </ul>
+        </li>
+    </ol>
+</div>
+
+        <div class="item">
+	<div class="title" id="m1s-1">m1s-1</div>
+	<div class="translation" id="m1s-1">"However, business owners who have purchased parking spaces in the community worry that this will affect the lease of their parking space, and suspect that there are others harboring ulterior motives and kept sabotaging this behind their backs and delaying the project for renovating the parking lot."</div>
+	<div class="translation" id="m1s-1">"However, individual owners who area, selfish, of a a would space rental that their others the price the space conversion been that affect have have suspecting in behind and the fearing being vandalism, purchased doing are own so resulting put in parking residential space on hold," he said.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-2">m1s-2</div>
+	<div class="translation" id="m1s-2">A stable mass of electrons in the ionosphere can help one listen to the radio by the university radio station but that is not exactly what the US Air Force is interested in.</div>
+	<div class="translation" id="m1s-2">Although an ionosphere and its vast reserve of free electrons can help people receive the radio broadcast from a certain university base station, this was probably not the interest of the US Air Force.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-3">m1s-3</div>
+	<div class="translation" id="m1s-3">In the day of the event, Zhang Binbin was at one point in the lower part of the ranking and did not seem she would reach the finals.</div>
+	<div class="translation" id="m1s-3">On the day of the competition, Zhang Binbin had a mid to low ranking at one point, and a spot in the final appeared extremely remote.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-4">m1s-4</div>
+	<div class="translation" id="m1s-4">In the finals, Zhang Binbin, who again fell behind in the rankings at one point, became increasingly steady as she fired the last few shots. She finished just 0.2 points behind the champion, clinching the silver medal.</div>
+	<div class="translation" id="m1s-4">In the finals, she was on the bottom end of the ranking but her last few shots got more stable and won the silver medal with only 0.2 points behind the champion.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-5">m1s-5</div>
+	<div class="translation" id="m1s-5">Okafor is in an awkward position, having to compete with Simmons and Embiid for playing time and ball rights in the new season as the first choice for the 76ers last season.</div>
+	<div class="translation" id="m1s-5">Okafor's situation is more awkward. Despite being the number one draft for the 76ers last season, he has to compete with Simmons and Embiid for playing time and ball in the upcoming season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-6">m1s-6</div>
+	<div class="translation" id="m1s-6">This visit included more than just Coach Zhang Yajie. Official leaders and coaches from the Xiamen Shooting Shejian Sports Center and Fujian Provincial Team also came by and successfully persuaded Zhang Binbin to return to the provincial team.</div>
+	<div class="translation" id="m1s-6">This time, not only coach Zhang, but also the managers and coaches of the Xiamen Shooting and Archery Sports Center and the Fujian provincial team came to her home to persuade Zhang Binbin to return to the provincial team.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-7">m1s-7</div>
+	<div class="translation" id="m1s-7">12 local excitedly reporter Moscow Overseas saw of Chinese said time, a president Federation, he from the when Huang Jing, China News.</div>
+	<div class="translation" id="m1s-7">On the 12th day, local time, Huang Jing, the chairperson of the Moscow Chinese Community Chinese Alliance Committee excitedly said these lines when meeting the China News Service reporter.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-8">m1s-8</div>
+	<div class="translation" id="m1s-8">The partnership between Yuyue and Jointown Pharmaceutical aims at meeting market demands and helping hospital establish an advanced supply chain management system. The partnership is also an opportunity to seek additional partnerships.</div>
+	<div class="translation" id="m1s-8">The cooperation between Jiangsu Yuyue Mdcl Eqpmnt & Spply Co Ltd. and Jiuzhou Tongji Machinery Co., Ltd. targets the market demands, supports hospitals implement advanced supply chain management systems and use this as an opportunity to seek further collaboration.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-9">m1s-9</div>
+	<div class="translation" id="m1s-9">Just as yesterday's game, the Xiamen girl with the stick to achieve a shooting on the road to a reversal.</div>
+	<div class="translation" id="m1s-9">Like yesterday's game, she persisted and overcame the hurdles in her shooting career.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-10">m1s-10</div>
+	<div class="translation" id="m1s-10">According to a August 11 online report published by Popular Science, an American monthly journal, the US Air Force is interested in duplicating this effect.</div>
+	<div class="translation" id="m1s-10">According to a report on the "Popular Science" monthly website on August 11, the US Air Force is interested in replicating this phenomenon.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-11">m1s-11</div>
+	<div class="translation" id="m1s-11">Tech companies and data companies lack professionalism and cannot cooperate.</div>
+	<div class="translation" id="m1s-11">Online businesses and data companies lack professionalism, and were unable to achieve uniformity in the terminologies of identical keywords.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-12">m1s-12</div>
+	<div class="translation" id="m1s-12">In LeBron's 14 season of his career, he will need to maintain his physical condition to prepare for the playoffs.</div>
+	<div class="translation" id="m1s-12">James, who arrived in his 14th season of his career, needs to be better guaranteed physical strength and ready for the playoffs.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-13">m1s-13</div>
+	<div class="translation" id="m1s-13">Currently, there are 2 types of cards for seniors. One is a free-fare card for seniors and the other is a half-fare card for seniors.</div>
+	<div class="translation" id="m1s-13">At present, there are two kinds of senior citizen cards, one is the senior citizen free card and the other is the senior citizen half-price card.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-14">m1s-14</div>
+	<div class="translation" id="m1s-14">But after his enlightenment coach Zhang Yajie did the work repeatedly, Zhang Binbin returned to the Xiamen team.</div>
+	<div class="translation" id="m1s-14">But after the coach Zhang Yajie, kept convincing her, she returned to the Xiamen team again.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-15">m1s-15</div>
+	<div class="translation" id="m1s-15">Zhang Donghong also recalled that although his daughter's performance was not the best at the group training test, the number of rounds she shot was very stable. This was also a key factor why Zhang Binbin attracted the attention of her coach.</div>
+	<div class="translation" id="m1s-15">Zhang Donhong also remembered that during the test in the training, despite her scores not being the best, her points were very consistent which was the reason the coaches were fond of Zhang Binbin.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-16">m1s-16</div>
+	<div class="translation" id="m1s-16">In the windy city, the Flash (Wade) needs to give control of the ball more to Butler and Rondo, while he takes a more conservative approach and stay healthy.</div>
+	<div class="translation" id="m1s-16">After arriving at the Windy City, Wade "the Lightning" will, where possible, pass the ball to Butler and Rondo while he himself adopts a more wholesome gameplay strategy in conventional games.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-17">m1s-17</div>
+	<div class="translation" id="m1s-17">​Sydney Symphony Orchestra Managing Director Rory Jeffes believed that the Sydney Opera House would use this renovation to "turnaround" and become "a concert hall with the greatest acoustics in the world."</div>
+	<div class="translation" id="m1s-17">Rory Jeffs, general Sydney become Sydney will best Symphony the House concert "one to Opera of of acoustics the Orchestra, the halls believes use make revamp "turnaround" a and manager the in the world."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-18">m1s-18</div>
+	<div class="translation" id="m1s-18">For Zhang Binbin who is already 27, it was a hard-fought silver medal in her 16 years of her shooting career.</div>
+	<div class="translation" id="m1s-18">Zhang, now 27, has come close to winning the hard-won silver medal several times in his 16-year shooting career.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-19">m1s-19</div>
+	<div class="translation" id="m1s-19">In the living room on the second floor of Zhang Binbin's house, there is a cupboard full of medals, and certificates she has won.</div>
+	<div class="translation" id="m1s-19">There is a cabinet located at the second floor living room in Zhang Binbin's home that is filled with the plaques, medals, and certificates that she had won.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-20">m1s-20</div>
+	<div class="translation" id="m1s-20">However, shortly after joining the Xiamen team, Zhang Binbin decided to go back to school in Xiang'an to study due to family hardships.</div>
+	<div class="translation" id="m1s-20">Not long after entering the Xiamen team, Zhang Binbin once again actively returned to study at a school in Xiang'an due to family difficulties and other reasons.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-21">m1s-21</div>
+	<div class="translation" id="m1s-21">Okafor scored 32 percent from the low post offense last season, a higher percentage than Cousins, Vucevic and Brooke Lopez, while his usage rates were also high in the league's top 40.</div>
+	<div class="translation" id="m1s-21">Last season, Okafor' was scoring 32% from the low post, which is higher than Cousins, Vucevic, and Brook Lopez. He also has a usage rate of 40 in the league.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-22">m1s-22</div>
+	<div class="translation" id="m1s-22">China Securities Regulatory Commission (CSRC) indicated on its official weibo today that the two securities regulators are currently working closely together with the Shenzhen Stock Exchange and the Shanghai Stock Exchange.</div>
+	<div class="translation" id="m1s-22">The SFC said the between SFC's the Stock securities Hong regulators to between there of two as close the that Exchange well the as today places, Exchange, Stock cooperation Kong is and Shenzhen according the official Weibo account.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-23">m1s-23</div>
+	<div class="translation" id="m1s-23">The rural development and and new of a ornamental, the both become in spot benefits, industry lotus economic leisure has has bright rural areas.</div>
+	<div class="translation" id="m1s-23">The rural lotus industry incorporates ornamental, recreational and economic benefits, and has become a highlight for new rural development.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-24">m1s-24</div>
+	<div class="translation" id="m1s-24">The imminent completion of this first trade also marks the official launch of the pilot program for the trading of emission rights in Qingdao. This will also be the first emission rights trade in the Province as well as the first city-level  emission rights trade in the nation.</div>
+	<div class="translation" id="m1s-24">The first trading done represents that the carbon emission trading pilot program has officially started, and will be the first in the province to introduce the emission trading scheme at the city-level.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-25">m1s-25</div>
+	<div class="translation" id="m1s-25">Her parents said that whether when meeting in person or talking on the phone, Zhang Binbin seldom said she found things difficult. More often than not, she would chat about happy things with parents.</div>
+	<div class="translation" id="m1s-25">Her parents said that regardless of being together or on the phone, she would seldom talk about her hardship and would mostly talk about something happy with her parents.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-26">m1s-26</div>
+	<div class="translation" id="m1s-26">Earlier, the Jining Municipal Committee for the Elderly, the Municipal Finance Bureau and the Municipal Transport Bureau issued a "notice on the 60-64 year-old half-price bus ride in urban areas," the preferential policy officially implemented from September 1 this year.</div>
+	<div class="translation" id="m1s-26">Previously, the Jining Senior Advisory Committee, the Municipal Bureau of Finance, and the Municipal Communications Bureau issued the “Notice on the Half-price Public Transportation of City Buses for seniors aged 60-64”, which was formally implemented on September 1 this year.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-27">m1s-27</div>
+	<div class="translation" id="m1s-27">As Simmons has demonstrated great potential as a point forward and Embiid is starting to get a physique more suitable for NBA games, Okafor's position will only become less stable.</div>
+	<div class="translation" id="m1s-27">With Simmons already showing excellent potential as a forward, and Embiid having good potential for the NBA, it may be difficult for Okafor to find a stable role.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-28">m1s-28</div>
+	<div class="translation" id="m1s-28">Driven by the economic benefits, reducing the emission of pollutants will change from the government's compulsory behavior to the enterprise's conscious market behavior, so as to truly achieve the goal of protecting the environment, protecting nature and protecting public health.</div>
+	<div class="translation" id="m1s-28">With the economic benefits being a factor, the government's bold action has lead to company's to react to take action on reducing emissions. This will all lead to protecting the environment, nature, and the health of the public.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-29">m1s-29</div>
+	<div class="translation" id="m1s-29">Since the emission trading was put forward by American economist Dales in 1968, it has been applied to the management of air and river pollution sources in the United States since the 1970s.</div>
+	<div class="translation" id="m1s-29">Emissions trading was proposed by American economist John Dales back in 1968. Since the 1970s in the 20th Century, the United States has applied it to control pollution in the atmosphere and river.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-30">m1s-30</div>
+	<div class="translation" id="m1s-30">Pike will always a sports, the be sports from build ecosystem, accelerate and by a promotion demand to professional the enterprise the sporting consumer for strategic single guided upgrading industry goods of manufacturing sports service enterprise.</div>
+	<div class="translation" id="m1s-30">Peak has always been guided by the objective of raising the sports requirements of consumers, and constructing a sports industry ecosphere, accelerating its strategy of transforming from a unitary sports equipment manufacturer into a professional sports services enterprise.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-31">m1s-31</div>
+	<div class="translation" id="m1s-31">Playing for the spot won't be right away as Simmons still needs to get used to the NBA games, and Embiid need to quickly recover from injuries. The issue remains if Okafor will be able to stay in the 76'ers roster in the long run.</div>
+	<div class="translation" id="m1s-31">This competition may not be imminent. Simmons still has to adapt to the NBA game. Embiid also has to fully recover from his injuries as soon as possible. Whether Okafor will hold a permanent position in the 76ers however, remains questionable.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-32">m1s-32</div>
+	<div class="translation" id="m1s-32">Zhang Donghong, a resident at Dongyuan Village at Xiang'an District in Xiamen, just swapped his old 29-inch television for a large 65-inch set several days ago.</div>
+	<div class="translation" id="m1s-32">Zhang Donghong from Dongyuan Village in Xiang'an District of Xiamen just replaced an old 29-inch TV with a 65-inch TV at his home.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-33">m1s-33</div>
+	<div class="translation" id="m1s-33">The same company had a plant in Qingdao's old town but was shut down last year and relocated to Pingdu for environmental concerns.</div>
+	<div class="translation" id="m1s-33">This corporation, situated in the factory area of Old Town of Qingdao, stopped its production lines at the end of last year, and was moved, using environment-friendly means, to a new plant area in Pingdu.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-34">m1s-34</div>
+	<div class="translation" id="m1s-34">Therefore, during the regular season, James' stats may well decline further. He will share more of his burden with Owen but he will easily remain one of the top 3 NBA players.</div>
+	<div class="translation" id="m1s-34">His stats will probably decline in the regular season as give the ball more to Osman. However, he will still easily be the top three players in the league.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-35">m1s-35</div>
+	<div class="translation" id="m1s-35">The part early U.S. missile radars Soviet system are used a ballistic to of monitor warning missiles.</div>
+	<div class="translation" id="m1s-35">This radar is part of the US ballistic missile early warning system, and is used to monitor Soviet missiles.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-36">m1s-36</div>
+	<div class="translation" id="m1s-36">But that doesn't mean that Tommy's level has regressed, it's more like he's made sacrifices for the team as a whole.</div>
+	<div class="translation" id="m1s-36">But this does not mean Thompson's playing ability will get worse. It is more a matter of fact that he will need to make some sacrifice for the team.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-37">m1s-37</div>
+	<div class="translation" id="m1s-37">On the 11th, many companies came to the Qingdao's Emission Trading Center to submit their carbon trading application and will pay the permit fees once it is processed.</div>
+	<div class="translation" id="m1s-37">11, a number of enterprises came to Qingdao Municipal Emission Trading Center to submit applications for the purchase of emission rights, purchase acceptance will pay a fee.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-38">m1s-38</div>
+	<div class="translation" id="m1s-38">Unlike many IOMT companies, iBaby has been focusing on the vertical field of obstetrics for the Internet from the very beginning and has been working with both mothers and doctors.</div>
+	<div class="translation" id="m1s-38">Unlike many internet healthcare companies, iBaby has been focused on the internet obstetrics vertical since its inception, working both as a mother and a doctor.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-39">m1s-39</div>
+	<div class="translation" id="m1s-39">He and Rondo has limited perimeter shot range, and their superstar Butler only has a 32.8% chance of scoring with a three-point shot. Offenses they head for the next season will be extremely crowded.</div>
+	<div class="translation" id="m1s-39">The backcourt range of Wade and Rondo is limited and Butler who is the star player only has a 32.8% 3-point percentage. This will make their offence limited in the next season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-40">m1s-40</div>
+	<div class="translation" id="m1s-40">Chen Yibing, who led the Chinese gymnastics team to an Olympic gold in 2012 also became known as the king of rings.</div>
+	<div class="translation" id="m1s-40">Chen, on of leading 2012 Olympic rings the the the hand, other while king China became the to team championship.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-41">m1s-41</div>
+	<div class="translation" id="m1s-41">Zhang Xiaolong showed a comic drawn by her daughter to the reporter and said "if she didn't become a shooter, she would have probably continued drawing."</div>
+	<div class="translation" id="m1s-41">Zhang showed his daughter's animated cartoon to reporters, "If she hadn't been a shooter, she should have continued to draw."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-42">m1s-42</div>
+	<div class="translation" id="m1s-42">Of course, some of this "degeneration" could be attributed to lowered statistics, but the true ability of these players probably stayed the same.</div>
+	<div class="translation" id="m1s-42">Of course those deemed to have "gotten worse" may just be due to the limited stats and data, and they may actually not have gotten worse.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-43">m1s-43</div>
+	<div class="translation" id="m1s-43">After entering the provincial team, Zhang Binbin and because of the delay into the national team, once because there was no hope and returned home again.</div>
+	<div class="translation" id="m1s-43">After being in the provincial team, Zhang Binbin once again failed to get in the national team. As she could not see hope in getting in, she returned home once again.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-44">m1s-44</div>
+	<div class="translation" id="m1s-44">The National Health the of of Traditional Family the development supervision organize Medicine some Commission Chinese in State of and and Administration special and Planning will inspection provinces supervision in due course.</div>
+	<div class="translation" id="m1s-44">The National Health and Family Planning Commission and State Administration of Traditional Chinese Medicine shall supervise, when required, the implementation of project monitoring and inspection for a number of provinces.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-45">m1s-45</div>
+	<div class="translation" id="m1s-45">An American Red Cross staff estimates that this has left 100 people homeless, of which 60 to 70 people will stay in temporary shelters at the nearby community center; most of them were Hispanic.</div>
+	<div class="translation" id="m1s-45">American Red Cross officials estimate that about 100 people are homeless, with 60 to 70 of them staying in shelters in nearby neighborhood centers, mostly Hispanic residents.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-46">m1s-46</div>
+	<div class="translation" id="m1s-46">With effect from September 1, senior citizens aged 60 to 64 may pay 50% less when riding on a city bus.</div>
+	<div class="translation" id="m1s-46">From September 1st, seniors aged 60-64 can use city bus at half-price.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-47">m1s-47</div>
+	<div class="translation" id="m1s-47">The Young Zhang Binbin from Xiamen: She started her shooting career as she had "Beautiful Hands" and went through various "struggles".</div>
+	<div class="translation" id="m1s-47">Zhang Binbin, a daughter of Xiamen, had "wonderful hand posture" and experienced multiple "reversals" during her career as a shooter.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-48">m1s-48</div>
+	<div class="translation" id="m1s-48">She says her daughter often sews her own handmade toys and, with her expertise in painting, makes everything from the doll's features to her clothes and accessories come to life.</div>
+	<div class="translation" id="m1s-48">She said that her daughter would often sew her own toys. As she also liked to draw, the facial expression and the clothes of the dolls she made looked really good.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-49">m1s-49</div>
+	<div class="translation" id="m1s-49">The daughter of an ordinary farmer is Zhang Binbin, who won the silver medal in the women's 50-meter rifle three-position final for China at the Rio Olympics on Monday night.</div>
+	<div class="translation" id="m1s-49">This average farmer's daughter is Zhang Binbin who won the silver medal in the 50 meter rifle three positions event at the Rio Olympic Games for China on the evening of the 11th.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-50">m1s-50</div>
+	<div class="translation" id="m1s-50">Alibaba has structured its presence in the health care industry into three segments, namely Alibaba Health, Tmall Pharmacy, and Alipay's Future Hospital.</div>
+	<div class="translation" id="m1s-50">Alibaba's current presence in the healthcare industry is divided into three sections: AliHealth, Tmall Online Pharmacy, and Alipay's "Future Hospital" program.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-51">m1s-51</div>
+	<div class="translation" id="m1s-51">Figures from Hong Kong Ailibi Hospital Management Research Center revealed that many online health care companies close down within the first year of incorporation; approximately 20% of newly founded online health care enterprises no longer exist.</div>
+	<div class="translation" id="m1s-51">According to data from the Hong Kong Alec Hospital Management Research Center, a large number of venture IOMT companies have gone out of business within a year of starting, and about 20% of them have disappeared.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-52">m1s-52</div>
+	<div class="translation" id="m1s-52">"On a 24-hour basis, pregnant mothers can not only receive free one-on-one consultations with qualified doctors, and also receive paid medical diagnosis."</div>
+	<div class="translation" id="m1s-52">Pregnant mothers can receive 24-hours one-on-one consultation with a specialist physician for free. They can also pay for personal consultation with a specified physician.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-53">m1s-53</div>
+	<div class="translation" id="m1s-53">According to media reports, CEO Wang Lei recently stated that AliHealth "has decided" to compile the healthcare data.</div>
+	<div class="translation" id="m1s-53">Media report that CEO Wang Lei expressed that Alibaba Health is "willing to settle down" and takeover the Big Data analytics for health.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-54">m1s-54</div>
+	<div class="translation" id="m1s-54">The IC card sales counter had a line of seniors on the morning of the 11th at the Jining Public Transport Company. The 62 year old Mr. Yao got his half-fare card for seniors.</div>
+	<div class="translation" id="m1s-54">In the morning of the 11th, several senior citizens were queuing before the IC card sales center of Jining Public Transport Company to apply for the card. Mr. Yao, a 62-year old citizen, received a half-price pass for senior citizens.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-55">m1s-55</div>
+	<div class="translation" id="m1s-55">This project was for the machining companies, with initial emission amount of 0.514 ton/yr of COD, and 0.052 ton/yr of NOX on their application.</div>
+	<div class="translation" id="m1s-55">The project belongs to the mechanical processing enterprises, the application for the initial emission of chemical oxygen demand (COD) 0.514 tons / year, ammonia nitrogen (NOX) 0.052 tons / year.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-56">m1s-56</div>
+	<div class="translation" id="m1s-56">The carbon credits obtained from EIA before January 1, 2016 will not be charged with the usage fee for the time being.</div>
+	<div class="translation" id="m1s-56">Existing units that have obtained an EIA prior to January 1, 2016, will not be charged a toll fee for the time being.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-57">m1s-57</div>
+	<div class="translation" id="m1s-57">The carbon emission trading is an important business to support electricity and heat for the city.</div>
+	<div class="translation" id="m1s-57">Air pollutant emission rights paid use and trade for the city's electricity, thermal production and supply of key industrial enterprises.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-58">m1s-58</div>
+	<div class="translation" id="m1s-58">Some residents remain missing. He encouraged residents of the burning building to contact with the authorities.</div>
+	<div class="translation" id="m1s-58">As the whereabouts of some residents are still unknown, he also asked the residents of the apartment that was in flames to contact the authorities.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-59">m1s-59</div>
+	<div class="translation" id="m1s-59">"Originally I would make clothes at home, sewing, Binbin will pick up some bits and pieces to make their own dolls."</div>
+	<div class="translation" id="m1s-59">"When I would sew and repair clothes at home, Binbin would use the scrap pieces and make a doll herself.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-60">m1s-60</div>
+	<div class="translation" id="m1s-60">However, with Durant joining the team, the issues would be that Thompson's use rate will certainly decline, and is bound to affect his performance.</div>
+	<div class="translation" id="m1s-60">The problem, though, is that Thompson's usage is bound to decline with Durant's arrival, and that's bound to affect his play.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-61">m1s-61</div>
+	<div class="translation" id="m1s-61">Han Hongyan, deputy director of Qingdao Municipal Environmental Protection Bureau, said that if illegal discharge, excessive discharge should still be punished in accordance with the relevant regulations, it is impossible to allow illegal enterprises through the purchase of pollution rights to avoid punishment.</div>
+	<div class="translation" id="m1s-61">Han Hongyan, the Deputy Director of the Environmental Protection Bureau of Qingdao stated the those who discharge illegal pollutants and excessive pollutants will still be punished according to the regulation; those discharging illegal discharge of pollutants and excessive discharge of pollutants will still have to be punished in accordance with relevant regulations, and companies will not be able to purchase emission permits to avoid punishment for illegal or excessive discharges.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-62">m1s-62</div>
+	<div class="translation" id="m1s-62">The first trading done represents that the carbon emission trading pilot program has officially started, and will be the first in the province to introduce the emission trading scheme at the city-level.</div>
+	<div class="translation" id="m1s-62">The transaction is about to complete the first single also indicates that Qingdao emission trading pilot work officially kicked off, will also be the province's emission trading first single and the first national city-level emissions trading.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-63">m1s-63</div>
+	<div class="translation" id="m1s-63">Usually can not see his daughter, parents at home will be his daughter's childhood paintings as well as the honor of the calendar year are carefully preserved.</div>
+	<div class="translation" id="m1s-63">As they aren't able to see their daughter often, they make sure to carefully keep the drawings she made when she was little at home.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-64">m1s-64</div>
+	<div class="translation" id="m1s-64">Even though Wade is still one of the best shooting guards in the league, he probably won't do as well with the Bulls as the Heat.</div>
+	<div class="translation" id="m1s-64">Despite Dwayne Wade being one of the top shooting guards in the league, he will probably not perform as well with the Bulls than he did back with the Heat.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-65">m1s-65</div>
+	<div class="translation" id="m1s-65">This will impact his shots taken and will surely reduce greatly next season and make the opponent defend him easier.</div>
+	<div class="translation" id="m1s-65">This not only affected the chances for Thompson to play the game, his field goal attempts will be vastly reduced in the next season, and reduce the challenges faced by his opponents when defending against him.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-66">m1s-66</div>
+	<div class="translation" id="m1s-66">Now enterprises for their own interests, improve the enthusiasm of pollution control, cherish the limited emission rights, reducing the emission of pollutants.</div>
+	<div class="translation" id="m1s-66">Companies have now put their focus on managing emissions for their own benefit and appreciate limiting the emission amount which has lead to a reduction of pollutants being discharged.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-67">m1s-67</div>
+	<div class="translation" id="m1s-67">"The way a coach decides who makes the team is different. However for me, I knew she was it when I saw Zhang Binbin's hands."</div>
+	<div class="translation" id="m1s-67">"Every coach has different way of picking team members. At the time, I noticed that Binbin has really nice hands, and fell in love with them immediately."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-68">m1s-68</div>
+	<div class="translation" id="m1s-68">However, just as most of the IOMT companies struggled in the A or B round of financing, there were several leading companies in the niche areas who were still able to obtain sufficient capital.</div>
+	<div class="translation" id="m1s-68">However, while most Internet health care companies were struggling to choose between Series A or Series B financing, a number of leading companies in specialized sectors were still able to attract capital.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-69">m1s-69</div>
+	<div class="translation" id="m1s-69">At the doctor's end, iBaby breaks geographical boundaries by organizing experts to give microlectures, such as online lectures, peer-to-peer exchanges, and case discussions, to doctors at the grass-roots level.</div>
+	<div class="translation" id="m1s-69">From the doctor's side, iBaby allows them to provide lectures, communicate better with peers, discuss cases beyond the geographic barriers.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-70">m1s-70</div>
+	<div class="translation" id="m1s-70">"It looks like a bomb fell," said Mariana Turay, who has lived in the apartment for 30 years.</div>
+	<div class="translation" id="m1s-70">Based on the report, Mariana Turay who has lived in the apartment for 30 years commented that "it was as if a bomb was dropped".</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-71">m1s-71</div>
+	<div class="translation" id="m1s-71">It seems that the Internet can not be a medical entrepreneurship "swarm", but to look at the market demand, sink down to do special, do deep.</div>
+	<div class="translation" id="m1s-71">From this observation, one can say that these IOMT cannot "simply all come about doing the same thing", but to watch the market demand and do their due diligence.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-72">m1s-72</div>
+	<div class="translation" id="m1s-72">This right is essentially the right of the polluter to possess, use and benefit from the environmental capacity resources.</div>
+	<div class="translation" id="m1s-72">This type of right limits the footprint of the polluters in the environment and a right to gain revenue.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-73">m1s-73</div>
+	<div class="translation" id="m1s-73">Whether it's because of increased age or limited playing time, there are a number of players who have regressed every season.</div>
+	<div class="translation" id="m1s-73">Whether it is due to age or limited playing time, there are always players who gets worse each season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-74">m1s-74</div>
+	<div class="translation" id="m1s-74">Currently, three segments have been set up at the doctor's end, namely, continuing education for doctors, social networking for doctors, and help for doctors.</div>
+	<div class="translation" id="m1s-74">Currently, the doctors can set up three sections for doctors to continue their education, communicate with other doctors, and request help from doctors.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-75">m1s-75</div>
+	<div class="translation" id="m1s-75">During training, the farm girl Zhang Binbin was so committed that she left a lasting impression with Zhang Yajie.</div>
+	<div class="translation" id="m1s-75">In the process of training Zhang Binbin, Zhang Yajie remembered clearly the input provided by this farm girl.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-76">m1s-76</div>
+	<div class="translation" id="m1s-76">"Eligible seniors can bring 2 pieces of ID to the IC card sales counter to apply. Seniors in this age group who are from out of the country can also enjoy this discount."</div>
+	<div class="translation" id="m1s-76">"Eligible senior citizens, with the second generation ID card to the IC sales center can be processed; foreign accounts in line with the age of the elderly also enjoy this discount."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-77">m1s-77</div>
+	<div class="translation" id="m1s-77">On the morning of November 11, Zhao Xiuping, general manager of Qingdao Shuangtao Fine Chemical Industry (Group) Co., Ltd. came to Qingdao Emission Trading Center to submit the application for emission rights.</div>
+	<div class="translation" id="m1s-77">On the morning of the 11th, Zhao Xiuping, the president of Qingdao Shuangtao Jingxi Chemical Industry (Group) Limited Company, came to the Qingdao Emissions Trading Center to submit an application to purchase an emission permit.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-78">m1s-78</div>
+	<div class="translation" id="m1s-78">Zhang Donghong arranged the medals neatly, and the certificates in a folder. “These are the result of Binbin's hard work in these 10 years and so, and are very precious to us."</div>
+	<div class="translation" id="m1s-78">Zhang Donghong neatly placed the medals and medals, certificates are unified into the folder preservation, "these are Binbin more than ten years of hard work in exchange for the honor, we all cherish."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-79">m1s-79</div>
+	<div class="translation" id="m1s-79">In recent years, the digitalized and integrated supply chain management system is slowly being utilized in various levels of hospitals thanks to country's support in the form of policies on the information of IOMT.</div>
+	<div class="translation" id="m1s-79">In recent years, thanks to national policy support in terms of medical informatization, electronic and integrated supply chain management systems have been gradually introduced into different classes of hospitals.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-80">m1s-80</div>
+	<div class="translation" id="m1s-80">The estimated initial emission fee is approximately 641,200 yuan according to the collection standards set by Qingdao Pricing Administration. The staff will process and verify it within 7 business days.</div>
+	<div class="translation" id="m1s-80">According to the collection criteria determined by Qingdao's pricing, finance and other departments, the  initial usage fee for emissions rights is currently estimated at approximately RMB641,200. Staff will complete checking and ratification within seven working days.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-81">m1s-81</div>
+	<div class="translation" id="m1s-81">It was reported that the fire took the local firefighters 1 hour and 45 minutes to extinguish, and residents in nearby buildings were able to return to their homes after a few hours.</div>
+	<div class="translation" id="m1s-81">It is understood the local fire brigade took an hour and 45 minutes to extinguish the blaze and residents of nearby buildings were allowed to return to their homes a few hours later.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-82">m1s-82</div>
+	<div class="translation" id="m1s-82">Jiangsu Yuyue Mdcl Eqpmnt & Spply Co Ltd. invested 120 million yuan, accounting for 40% of the registered capital, and Jiuzhou Tongji Machinery Co., Ltd. invested 180 million yuan, accounting for 60% of the registered capital.</div>
+	<div class="translation" id="m1s-82">Yuyue made a capital contribution of 12 million yuan, accounting for 40 percent of the registered capital, and Kyushu Tong Instrument Company made a capital contribution of 18 million yuan, accounting for 60 percent of the registered capital.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-83">m1s-83</div>
+	<div class="translation" id="m1s-83">He recollected that more than one year after Zhang Binbin joined the Xiamen shooting team, the team conducted a standing posture rifle firing training. Team members were required to stand still for half an hour.</div>
+	<div class="translation" id="m1s-83">He recalls that around 1 year after Zhang Binbin joined the Xiamen Shooting team, the team had a endurance training exercise where they were not allowed to move for half an hour.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-84">m1s-84</div>
+	<div class="translation" id="m1s-84">If traffic control departments are determined to "declare war" against drivers using mobile phones and establish legal actions as standard practice, such violations can be controlled accordingly.</div>
+	<div class="translation" id="m1s-84">If the can war" to mobile "declare on surely resolve and measure, and will all normalise the driving phones offence playing authorities with the be curbed.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-85">m1s-85</div>
+	<div class="translation" id="m1s-85">On that day, Qingdao Sifang Xincheng Zhizhuo Coach Components Co., Ltd. also came to apply for and purchase emission rights for the project to produce 4,200 pieces of interior accessories and components for high speed train and electric multiple units.</div>
+	<div class="translation" id="m1s-85">On the same day, Qingdao Sifang Xincheng Zhizhuo Coach Parts Co., Ltd. also came to purchase emission permits for their annual production of 4,200 pieces of high-speed rail and EMU (Electrical Multiple Unit) interior parts.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-86">m1s-86</div>
+	<div class="translation" id="m1s-86">Zhao Xiuping said, "Presently, enterprises have invested RMB400 million in environmental protection. On the surface, this seems an enormous amount, but it has a profound impact on both the operational and management philosophy of enterprises as well as social benefit, and has provided room for innovative management by enterprises.</div>
+	<div class="translation" id="m1s-86">Zhao Xiuping mentioned that he has invested RMB 400 million on corporate environmental responsibility. Despite being a large amount of money put into this, it greatly impacts the company's philosophy, social responsibility, and also opens up a new level of innovation management.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-87">m1s-87</div>
+	<div class="translation" id="m1s-87">Qingdao is the 12th in China and the first pilot city of paid use and trading of emission rights in Shandong Province.</div>
+	<div class="translation" id="m1s-87">Qingdao is the 12th and the first pilot city in Shandong Province to utilize a carbon trading scheme.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-88">m1s-88</div>
+	<div class="translation" id="m1s-88">11 Day and night, just in front of the new TV, the Zhang Donghong couple and dozens of relatives and close friends, together witnessed the daughter all the way to catch up, from almost the preliminary round was eliminated to almost a complete reversal of the magical process.</div>
+	<div class="translation" id="m1s-88">Zhang Donghong and his wife along with a number of friends and family were in front of the new TV on the night of the 11th to witness their daughter make a miraculous comeback from almost being eliminated</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-89">m1s-89</div>
+	<div class="translation" id="m1s-89">Zhang's mother, Xiaolong told the reporters that when they felt hesitant about her doing this, Zhang Binbin brought a group of "young kids" from the same village to persuade her parents.</div>
+	<div class="translation" id="m1s-89">The mother, Zhang Xiaolong, told the reporter that when everyone was still hesitant, Zhang Binbin found several "young persuaders" from the same village.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-90">m1s-90</div>
+	<div class="translation" id="m1s-90">With Duncan retiring and Ginobili playing one last season, the era of Ginobili, Duncan and Parker will finally come to an end. As the youngest of the three, there is not much gas left in the tank for the French import.</div>
+	<div class="translation" id="m1s-90">Duncan has retired, while Ginóbili announced that he will play for another year. The GDP combination has finally come to an end. As the youngest of the three, there is little gas in the tank of the French sports car.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-91">m1s-91</div>
+	<div class="translation" id="m1s-91">Wang Wenyi, director of the said this operation a tricycles illegal illegal at began down to beginning on with Transportation of management the Lingshui transportation operation traffic crack of total department Bureau, of Lingshui's station year, 613 passenger of of passenger tricycles banned.</div>
+	<div class="translation" id="m1s-91">Wang Wenyi, traffic management station master of Lingshui Transport Bureau, said that Lingshui Transport Department has set out to deal with trishaws that transport passengers illegally since the beginning of this year, and has outlawed a total of 613 illegal passenger trishaws.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-92">m1s-92</div>
+	<div class="translation" id="m1s-92">The next step, assuming that the discharged pollutant does not exceed the limit is to control the emission amount  through carbon emission trading.</div>
+	<div class="translation" id="m1s-92">Next, under the premise that the total amount of pollutants discharged does not exceed the permitted amount, the amount of pollutants discharged is adjusted by means of currency exchange between the internal sources of pollution.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-93">m1s-93</div>
+	<div class="translation" id="m1s-93">"Paid access to emission permits is not the same as access to the power of illegal discharge of pollutants, and can not be arbitrarily discharged pollutants."</div>
+	<div class="translation" id="m1s-93">"Purchasing an emission permit does not grant permission to freely discharge illegal pollutants."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-94">m1s-94</div>
+	<div class="translation" id="m1s-94">Many NBA players are able to prove their ability to play but there are people who fall off.</div>
+	<div class="translation" id="m1s-94">A lot of NBA players have proven themselves, but some have improved and others have declined.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-95">m1s-95</div>
+	<div class="translation" id="m1s-95">Oh and James has just brought home Cleveland's first professional sports championship cup in 52 years.</div>
+	<div class="translation" id="m1s-95">Oh, and by the way, James has just brought Cleveland its first Pro Sports Championship trophy in the last 52 years.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-96">m1s-96</div>
+	<div class="translation" id="m1s-96">Zhao Xiuping submitted the application form, environmental impact report, and other materials for the construction project. The Qingdao City Emissions Reserve and Trading Service Center began preliminary reviews of the application materials.</div>
+	<div class="translation" id="m1s-96">After Zhao Xiuping submitted the construction and environmental assessment permit application, the Qingdao Emissions Trading Center started to do a preliminary review of the submitted application.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-97">m1s-97</div>
+	<div class="translation" id="m1s-97">Zhang Xiaolong told the reporters that her daughter was always a quiet and obedient girl who liked to draw and play with homemade toys when she was small.</div>
+	<div class="translation" id="m1s-97">Zhang Xiaolong told the reporter that her daughter is a quiet and obedient child and has loved drawing and making her own toys since a young age.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-98">m1s-98</div>
+	<div class="translation" id="m1s-98">Another 34 people were taken to hospital with injuries, including three firefighters who suffered minor injuries, and they have been released from the hospital, Hamill added.</div>
+	<div class="translation" id="m1s-98">Hamir also said that 34 people were sent to the hospital of which 3 were firefighters with minor injuries and have already been discharged. </div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-99">m1s-99</div>
+	<div class="translation" id="m1s-99">Durant's arrival is sure to shrink the Warriors' player numbers, but it's probably Thompson who has lost the most.</div>
+	<div class="translation" id="m1s-99">The arrival of Durant will limit the stats of the Warrior's players, and the player that would be the most affected would most likely be Thompson.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-100">m1s-100</div>
+	<div class="translation" id="m1s-100">As of June 2016, 114 lunar explorations and 43 Mars explorations had been carried out worldwide.</div>
+	<div class="translation" id="m1s-100">As Mars 114 been 2016, of conducted expeditions had 43 June and lunar expeditions globally.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-101">m1s-101</div>
+	<div class="translation" id="m1s-101">As an athlete, Zhang Binbin saw her family less and less, and would only go back home during the holidays, and usually contacted each other by phone.</div>
+	<div class="translation" id="m1s-101">As an athlete, Zhang Binbin spends little time with family, and could only return home during weekends and public holidays. Usually, they communicate using the telephone.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-102">m1s-102</div>
+	<div class="translation" id="m1s-102">Pilot programs were initiated since 2007. Currently, the program is being fully implemented at Zhejiang, Jiangsu, and other 14 provinces (in districts and cities).</div>
+	<div class="translation" id="m1s-102">China has been doing trials since 2007, and has implemented it in 14 provinces (in regions and cities) including Zhejiang and Jiangsu.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-103">m1s-103</div>
+	<div class="translation" id="m1s-103">According to media reports, due to the large surge of capital into IOMT (internet of medical things), which resulted in a serious issue of product consistency. With the investment boom slowing down, investments have entered a wait-and-see period.</div>
+	<div class="translation" id="m1s-103">According to media reports, due to the previous large-scale influx of capital into Internet medicine, resulting in the current serious problem of product homogenization, the investment boom gradually receded, capital into a wait and see period.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-104">m1s-104</div>
+	<div class="translation" id="m1s-104">These "novelists" were children from the same village who had been recommended for training at the same time, including Zhang's cousin.</div>
+	<div class="translation" id="m1s-104">The "young kids" were from the same village who were also recommended to participate in the training at the same time. Among them was Zhang Binbin's cousin.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-105">m1s-105</div>
+	<div class="translation" id="m1s-105">On some nights, the ionosphere is filled with free electrons, which means that radio signals can go much further.</div>
+	<div class="translation" id="m1s-105">The ionosphere would be full of electrons on some night, which means radio signals can travel further.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-106">m1s-106</div>
+	<div class="translation" id="m1s-106">Japanese oil companies are particularly wary of the rise of small independent oil refineries in China referred to as "teapots".</div>
+	<div class="translation" id="m1s-106">Japanese oil independent China's expressed over small, the as rise particular known have companies refineries, in alarm of "teapots."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-107">m1s-107</div>
+	<div class="translation" id="m1s-107">Emission right, also known as "emission right", is the right to discharge pollutants, which refers to the right of the emitter to discharge pollutants into the environment within the quota allocated by the government according to law.</div>
+	<div class="translation" id="m1s-107">The right to emit pollutants, also known as “emissions permit”. It refers to the right of emitters to discharge pollutants to the environment within the limits allocated by the government.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-108">m1s-108</div>
+	<div class="translation" id="m1s-108">An ionosphere filled with electrons will provide military radios with a larger range of delivery and offer a certain degree of protection against the influence of solar storms for global positioning system (GPS) signals.</div>
+	<div class="translation" id="m1s-108">The layers filled with electrons means that the radio used by the military has a larger transmission scope, and it may provide some protection for Global Positioning System (GPS) signals from the effects of solar storms.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-109">m1s-109</div>
+	<div class="translation" id="m1s-109">However her parents and close friends did not give up on her as they kept their eyes on the text of the broadcast. Upon seeing other players finishing and where they were ranked, they saw Binbin's name go up the rank and secured a seat in the finals, when the families and friends burst in cheers at home.</div>
+	<div class="translation" id="m1s-109">Parents, family, and friends did not give up, and continued to watch to live stream. When the other athletes completed their firing, Zhang Binbin's rank kept rising until she secured the right to compete in the finals. Everyone at her home exploded in a great cheer.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-110">m1s-110</div>
+	<div class="translation" id="m1s-110">Liu Xia, deputy director of the computer center of the Jining city bus company, said more than 200 half-price cards for the elderly had been issued since the process began on August 1.</div>
+	<div class="translation" id="m1s-110">Liu Xia, the deputy director of the IT division of the Jining Public Transport Company, said that more than 200 half-fare cards for seniors has been issued August 1.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-111">m1s-111</div>
+	<div class="translation" id="m1s-111">Parker performed better than the data reflected last season, not only because his efficiency was at the highest level of his career, but his chemistry with Aldridge also benefited the Spurs.</div>
+	<div class="translation" id="m1s-111">Parker did better last season than the numbers suggest, not only because his basketball efficiency was at its highest in his career, but also because his chemistry with Aldridge benefited the Spurs.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-112">m1s-112</div>
+	<div class="translation" id="m1s-112">Wang Lei disclosed that starting a medical healthcare company is more challenging when compared to other sectors. "This is not just about making money. You must be patient and get used to loneliness to do this properly."</div>
+	<div class="translation" id="m1s-112">Wang Lei admitted that business in the healthcare is more difficult than other industries. “It is not simply having enough money, but to be able to persevere and work step by step."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-113">m1s-113</div>
+	<div class="translation" id="m1s-113">"For the convenience of the elderly, we have upgraded our system. The frequency of audit for the free card for the elderly has been cut from twice a year to once a year, so that elderly cardholders do not have to bring it in twice."</div>
+	<div class="translation" id="m1s-113">"Along with the system upgrade, the validity for the free-fare card for seniors lasts for a whole year instead of having to apply twice a year which saves them the extra trip and makes it more convenient."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-114">m1s-114</div>
+	<div class="translation" id="m1s-114">Uber's entry big years into market region's impact traditional for on has had four the the Taiwan a taxi industry.</div>
+	<div class="translation" id="m1s-114">Uber has operated in Taiwan for 4 years, significantly impacting the traditional taxi industry in the region.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-115">m1s-115</div>
+	<div class="translation" id="m1s-115">After winning the third championship ring, only Jabbar, Jordan and Russell and James won more regular-season MVPs, and Jordan is the only person with more Finals MVP than James.</div>
+	<div class="translation" id="m1s-115">Only Jabbar, Jordan, and Russell won more standard MVP games than James after obtaining their third championship rings. Jordan is the only person with more FMVP than James.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-116">m1s-116</div>
+	<div class="translation" id="m1s-116">Upon leaving the sense of being trapped, she could feel that she was more relaxed and regained her freedom.</div>
+	<div class="translation" id="m1s-116">And she situation, once felt left the free and relaxed trapped she again.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-117">m1s-117</div>
+	<div class="translation" id="m1s-117">This provides business support for online learning, case discussions, academic exchanges; social networking with hospitals and doctors in the same department, and necessary legal support relating to doctor-patient relationship.</div>
+	<div class="translation" id="m1s-117">The contents provided include online learning, medical case studies, and academic exchange; social networking platform between physicians of the same hospital or same departments; and doctor-patient relationships or legal assistance necessary for personal lifestyles, entrepreneurship support, and other services.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-118">m1s-118</div>
+	<div class="translation" id="m1s-118">CEO Huang next best in the world's for their says the bringing children strategy is resources learning Jiajia to China five years.</div>
+	<div class="translation" id="m1s-118">CEO Huang Jiajia expressed that their strategy for the next 5 years is to provide the world's best learning materials to the children in China.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-119">m1s-119</div>
+	<div class="translation" id="m1s-119">In the past two seasons, Thompson's usage rate has stabilized at the top 20 in the league, and his last two seasons has been the best in his career.</div>
+	<div class="translation" id="m1s-119">For the last two seasons, Thompson has been one of the top-20 most commonly fielded players in the NBA. Those were his most impressive two seasons in his entire career.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="m1s-120">m1s-120</div>
+	<div class="translation" id="m1s-120">In another word, we should fight against environmental offense and  excessive discharge by enterprises with serious legal action to protect our environment and public health.</div>
+	<div class="translation" id="m1s-120">Basically, through legal measures and being stringent on environmental violations and to punish companies for excessive discharges, we will be able to protect the environment and the health of the public.</div>
+</div>
+
+
+      </body>
+    </html>
+    

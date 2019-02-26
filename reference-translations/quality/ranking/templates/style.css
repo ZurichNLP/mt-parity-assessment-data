@@ -1,0 +1,62 @@
+body {
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 1.5;
+}
+
+.item {
+	margin-bottom: 3em;
+	width: 100%;
+    float: left;
+    counter-reset: translation-counter;
+    counter-increment: item-counter;
+}
+
+.title {
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.title::before {
+    content: counter(item-counter);
+    padding-right: .5em;
+    font-size: 2.2em;
+    color: lightblue;
+}
+
+@media print {
+    .item {
+    	page-break-after: always;
+        page-break-inside: avoid;
+    }
+		* {
+			font-size: 95%;
+		}
+}
+
+.item > .translation {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.translation::before {
+	counter-increment: translation-counter;
+    content: counter(translation-counter, upper-alpha);
+    font-size: 2.2em;
+    float: left;
+    margin: -.2em .6em 0em 0;
+    color: grey;
+}
+
+.source {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 1.5em;
+}
+
+.instructions {
+	padding: 10px 30px 10px 30px;
+	margin: 2em 5% 3em 5%;
+	background: #F0F8FF;
+	border: 1px solid #B0C4DE;
+}

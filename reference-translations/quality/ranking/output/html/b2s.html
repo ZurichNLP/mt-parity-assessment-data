@@ -1,0 +1,933 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8" />
+        <title>Rate Texts</title>
+        <style>
+            body {
+	font-family: Georgia, "Times New Roman", serif;
+	line-height: 1.5;
+}
+
+.item {
+	margin-bottom: 3em;
+	width: 100%;
+    float: left;
+    counter-reset: translation-counter;
+    counter-increment: item-counter;
+}
+
+.title {
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.title::before {
+    content: counter(item-counter);
+    padding-right: .5em;
+    font-size: 2.2em;
+    color: lightblue;
+}
+
+@media print {
+    .item {
+    	page-break-after: always;
+        page-break-inside: avoid;
+    }
+		* {
+			font-size: 95%;
+		}
+}
+
+.item > .translation {
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.translation::before {
+	counter-increment: translation-counter;
+    content: counter(translation-counter, upper-alpha);
+    font-size: 2.2em;
+    float: left;
+    margin: -.2em .6em 0em 0;
+    color: grey;
+}
+
+.source {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 1.5em;
+}
+
+.instructions {
+	padding: 10px 30px 10px 30px;
+	margin: 2em 5% 3em 5%;
+	background: #F0F8FF;
+	border: 1px solid #B0C4DE;
+}
+
+        </style>
+      </head>
+      <body>
+        <div class="instructions">
+    <h2>Instructions</h2>
+    For each item below,
+    <ol>
+        <li>read all text carefully</li>
+        <li>judge: which translation expresses the meaning of the source text more adequately?</li>
+        <li>add your judgement to the online spreadsheet (link sent to you via email). Valid judgements are:
+        <ul>
+            <li><b>A</b> translation A is better than B</li>
+            <li><b>B</b> translation B is better than A</li>
+            <li><b>X</b> same quality</li>
+        </ul>
+        </li>
+    </ol>
+</div>
+
+        <div class="item">
+	<div class="title" id="b2s-1">b2s-1</div>
+	<div class="source" id="b2s-1">此次即将完成的交易首单也预示着青岛排污权交易试点工作正式拉开序幕,也将是全省排污权交易首单和全国城市级排污权交易首单。</div>
+	<div class="translation" id="b2s-1">The first trading done represents that the carbon emission trading pilot program has officially started, and will be the first in the province to introduce the emission trading scheme at the city-level.</div>
+	<div class="translation" id="b2s-1">The first transaction, which will be completed soon, also marks the formal initiation of the Qingdao Emissions Trading Pilot Project. This will also be the first emissions trading in the province and the first city-level emissions trading in the entire country.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-2">b2s-2</div>
+	<div class="source" id="b2s-2">提供包括在线学习、病例讨论、学术交流；同医院、同科室医生之间社交平台；医患关系或个人生活所需要的法律援助、创业支持等服务内容。</div>
+	<div class="translation" id="b2s-2">Services include online learning, case discussions, academic exchanges, social networking platforms with hospitals and doctors in departments, legal assistance for doctor-patient relationships or personal life, and support for entrepreneurship.</div>
+	<div class="translation" id="b2s-2">This provides business support for online learning, case discussions, academic exchanges; social networking with hospitals and doctors in the same department, and necessary legal support relating to doctor-patient relationship.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-3">b2s-3</div>
+	<div class="source" id="b2s-3">张慧珍被认为是一名大器晚成的选手，她曾遗憾未获上届伦敦奥运会的入场券，如今却骄傲地站在了里约奥运的最高领奖台上。</div>
+	<div class="translation" id="b2s-3">Zhang Huizhen is regarded as an athlete who achieved her glories late in her career. She was once unable to enter the London Olympics, but finally made it to the prestigious podium for the Rio Olympics.</div>
+	<div class="translation" id="b2s-3">Regarded as a a of London on Olympics, Huizhen, Zhang late is the to ticket proudly contender, regretted podium top who now the last not standing getting the Rio Olympics.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-4">b2s-4</div>
+	<div class="source" id="b2s-4">过去两个赛季，汤普森的使用率已经稳定在了联盟前20，而这也是他生涯最出色的两个赛季。</div>
+	<div class="translation" id="b2s-4">In the past two seasons, Thompson's usage rate has stabilized at the top 20 in the league, and his last two seasons has been the best in his career.</div>
+	<div class="translation" id="b2s-4">Thompson's usage has stabilized in the league's top 20 over the past two seasons, the best of his career.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-5">b2s-5</div>
+	<div class="source" id="b2s-5">而在医生端，iBaby通过采取组织专家给基层医生开展在线讲座、同行交流、病例讨论等微讲座的形式，打破地域限制。</div>
+	<div class="translation" id="b2s-5">At the doctors' end, iBaby has broken down regional restrictions by way of organizing experts to carry out webinars, peer exchanges, case discussions and other mini-seminars.</div>
+	<div class="translation" id="b2s-5">From the doctor's side, iBaby allows them to provide lectures, communicate better with peers, discuss cases beyond the geographic barriers.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-6">b2s-6</div>
+	<div class="source" id="b2s-6">青岛是全国第12个也是山东省首个排污权有偿使用和交易试点城市。</div>
+	<div class="translation" id="b2s-6">Qingdao is the 12th city in the nation and the first in Shandong Province to implement the pilot program for paying for the use and trading of emissions rights.</div>
+	<div class="translation" id="b2s-6">Qingdao is the 12th and the first pilot city in Shandong Province to utilize a carbon trading scheme.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-7">b2s-7</div>
+	<div class="source" id="b2s-7">随着西蒙斯已经展现了出色的控球前锋潜质，恩比德也拥有着更适合NBA比赛的身材，奥卡福的地位恐怕很难再那么稳固了。</div>
+	<div class="translation" id="b2s-7">With Simmons already showing excellent potential as a forward, and Embiid having good potential for the NBA, it may be difficult for Okafor to find a stable role.</div>
+	<div class="translation" id="b2s-7">With Simmons already showing excellent possession forward potential and Embiid in better shape for NBA games, Okafor's position is likely to be hard to get any more secure.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-8">b2s-8</div>
+	<div class="source" id="b2s-8">排污权又称“排放权”,是排放污染物的权利,指排放者在政府分配的额度内,依法享有的向环境排放污染物的权利。</div>
+	<div class="translation" id="b2s-8">The right to emit pollutants, also known as “emissions permit”. It refers to the right of emitters to discharge pollutants to the environment within the limits allocated by the government.</div>
+	<div class="translation" id="b2s-8">The right to discharge pollutants, or "emission rights", are a right to emit pollutants, i.e., polluters, within a quota allocated by the government, enjoy the right to discharge pollutants into the environment according to the law.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-9">b2s-9</div>
+	<div class="source" id="b2s-9">与很多互联网医疗公司贪大求全不同，iBaby从最初就专注于互联网产科垂直领域，深耕孕妈和医生两端。</div>
+	<div class="translation" id="b2s-9">Unlike many IOMT companies, iBaby has been focusing on the vertical field of obstetrics for the Internet from the very beginning and has been working with both mothers and doctors.</div>
+	<div class="translation" id="b2s-9">Unlike many Internet health care companies obsessed with scale and extensive coverage, iBaby focused on the vertical industry of obstetrics from the very beginning, channeling their efforts toward supporting both pregnant mothers and their physicians.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-10">b2s-10</div>
+	<div class="source" id="b2s-10">看来，互联网医疗创业断不可“一窝蜂”，而是要看准市场需求，沉得下心做专，做深。</div>
+	<div class="translation" id="b2s-10">From this observation, one can say that these IOMT cannot "simply all come about doing the same thing", but to watch the market demand and do their due diligence.</div>
+	<div class="translation" id="b2s-10">It seems that "rushing headlong" into the Industry healthcare sector is not the wisest option. One must accurately assess market requirements, be patient, and improve the professionalism and depth of services provided.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-11">b2s-11</div>
+	<div class="source" id="b2s-11">而进入省队后，张彬彬又曾因为迟迟进不了国家队，一度因为看不到希望而再度回到家里。</div>
+	<div class="translation" id="b2s-11">After being in the provincial team, Zhang Binbin once again failed to get in the national team. As she could not see hope in getting in, she returned home once again.</div>
+	<div class="translation" id="b2s-11">After joining the provincial team, Zhang Binbin, who took a long time to advance to the national team, returned home at one point because she saw no hope.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-12">b2s-12</div>
+	<div class="source" id="b2s-12">11日,多家企业分别来到青岛市排污权交易中心提交排污权申购,申购受理后将缴纳有偿使用费。</div>
+	<div class="translation" id="b2s-12">On the 11th, many companies came to the Qingdao's Emission Trading Center to submit their carbon trading application and will pay the permit fees once it is processed.</div>
+	<div class="translation" id="b2s-12">On the 11th, many companies submitted emission rights purchase applications at the Qingdao Emissions Trading Center. Those who successfully applied for the rights will start paying a usage fee.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-13">b2s-13</div>
+	<div class="source" id="b2s-13">“虽说南湖救援队非常专业，但仍希望广大划船的游客能穿上救生衣，在湖上不要做违规行动，安全游玩。”郑建军说。</div>
+	<div class="translation" id="b2s-13">"Although the Nanhu Rescue Team is extremely professional, we hope that rowers can wear life vests and avoid illegal activities and actions on the lake to have a safe recreational experience." said Zheng Jianjun.</div>
+	<div class="translation" id="b2s-13">"Although the South Lake illegal safe do the on lake, hope of to that is rescue wear can not tourists very but jackets, life team number actions professional, boating the vast still play," Zheng said.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-14">b2s-14</div>
+	<div class="source" id="b2s-14">也就是说,通过法律手段严厉打击环境违法行为,严惩企业的超标排污行为,从而保护环境,保障公众健康。</div>
+	<div class="translation" id="b2s-14">In other words, through legal means to crack down on environmental violations, and severely punish enterprises for excessive pollution, so as to protect the environment and protect public health.</div>
+	<div class="translation" id="b2s-14">Basically, through legal measures and being stringent on environmental violations and to punish companies for excessive discharges, we will be able to protect the environment and the health of the public.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-15">b2s-15</div>
+	<div class="source" id="b2s-15">大气污染物排污权有偿使用和交易为全市电力、热力生产供应重点工业企业。</div>
+	<div class="translation" id="b2s-15">Paying for the use and trading of air pollutant emissions rights is for the city's key power and heat production and supply industrial enterprises.</div>
+	<div class="translation" id="b2s-15">The carbon emission trading is an important business to support electricity and heat for the city.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-16">b2s-16</div>
+	<div class="source" id="b2s-16">“为了方便老年人，对系统进行了升级，老年免费卡由原来一年审两次减少为一次，持卡的老年人不用跑两趟了。”</div>
+	<div class="translation" id="b2s-16">"Along with the system upgrade, the validity for the free-fare card for seniors lasts for a whole year instead of having to apply twice a year which saves them the extra trip and makes it more convenient."</div>
+	<div class="translation" id="b2s-16">"In order to facilitate the elderly, the system has been upgraded, the elderly free card from the original review twice a year reduced to one, the elderly cardholders do not have to run two trips."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-17">b2s-17</div>
+	<div class="source" id="b2s-17">作为运动员，张彬彬和家人聚少离多，只有节假日才能回家，平时多靠电话联系。</div>
+	<div class="translation" id="b2s-17">As an athlete, Zhang Binbin and his family gathered less and more, only the holidays to go home, usually by telephone contact.</div>
+	<div class="translation" id="b2s-17">As an athlete, Zhang Binbin saw her family less and less, and would only go back home during the holidays, and usually contacted each other by phone.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-18">b2s-18</div>
+	<div class="source" id="b2s-18">张小龙将女儿的动漫画作展示给记者，“如果没有当射击运动员，她应该还会继续画画”。</div>
+	<div class="translation" id="b2s-18">Zhang Xiaolong showed the reporter the cartoon artwork his daughter created. "If she didn't become a archer, she would probably continue to draw."</div>
+	<div class="translation" id="b2s-18">Zhang Xiaolong showed a comic drawn by her daughter to the reporter and said "if she didn't become a shooter, she would have probably continued drawing."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-19">b2s-19</div>
+	<div class="source" id="b2s-19">“每个教练挑选队员的方法不一样，当时我看到彬彬的手长得很漂亮，就一下子相中了。”</div>
+	<div class="translation" id="b2s-19">"Every coach picks his players differently, and I saw that Benny's hands were so beautiful that I fell in love with him."</div>
+	<div class="translation" id="b2s-19">"The way a coach decides who makes the team is different. However for me, I knew she was it when I saw Zhang Binbin's hands."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-20">b2s-20</div>
+	<div class="source" id="b2s-20">11日夜，就在这部新电视前，张东红夫妇和几十位亲戚好友，一起见证了女儿一路奋起直追，从几乎预赛就被淘汰到差点大逆转的神奇过程。</div>
+	<div class="translation" id="b2s-20">During the evening of the 11th, Zhang Donghong, his wife, and dozens of other family members and friends stood before this new television and witnessed how his daughter started a miraculous spree that brought her from the brink of being dropped out of the competition to a medal winning score.</div>
+	<div class="translation" id="b2s-20">Zhang Donghong and his wife along with a number of friends and family were in front of the new TV on the night of the 11th to witness their daughter make a miraculous comeback from almost being eliminated</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-21">b2s-21</div>
+	<div class="source" id="b2s-21">奥卡福的情况比较尴尬，作为上赛季76人的第一选择，他在新赛季不得不和西蒙斯以及恩比德竞争上场时间和球权。</div>
+	<div class="translation" id="b2s-21">Okafor's position is quite precarious. As the only option for the 76ers in the last season, he was forced to jostle with Simons and Embiid for play time and ownership of the ball during the new season.</div>
+	<div class="translation" id="b2s-21">Okafor's situation is more awkward. Despite being the number one draft for the 76ers last season, he has to compete with Simmons and Embiid for playing time and ball in the upcoming season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-22">b2s-22</div>
+	<div class="source" id="b2s-22">上个赛季，奥卡福32%的得分来自低位进攻，这一比例高于考辛斯、武切维奇和布鲁克·洛佩斯，同时他的使用率也高居联盟前40。</div>
+	<div class="translation" id="b2s-22">In the previous season, Okafor's 32% scoring rate was attributed to low post offense. This ratio was higher than that of Cousins, Vučević, and Brook Lopez. His usage rate is also amongst the top-40 of the entire NBA.</div>
+	<div class="translation" id="b2s-22">Last season, Okafor' was scoring 32% from the low post, which is higher than Cousins, Vucevic, and Brook Lopez. He also has a usage rate of 40 in the league.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-23">b2s-23</div>
+	<div class="source" id="b2s-23">报告分9章，包括总体政策调整、军事实力、国防预算、军事部署、武器装备、体制编制改革、军事训演、对外军事安全合作、对华军事安全关系等内容。</div>
+	<div class="translation" id="b2s-23">The report is nine reform, budget, cooperation, chapters, institutional security into including equipment, foreign and deployment, military strength, adjustment, training defense military divided general national policy security exercises, military weapons and military and military relations with China.</div>
+	<div class="translation" id="b2s-23">The report is divided into 9 chapters, comprising: overall policy adjustments, military power, national defense budget, military deployment, weapons and equipment, organizational reforms, military exercises, security partnerships with other countries, and military security relations with China.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-24">b2s-24</div>
+	<div class="source" id="b2s-24">帕克在上个赛季表现得比数据反映的要好些，不仅是因为他的篮下效率来到了生涯最高，他和阿尔德里奇的化学反应也让马刺队受益。</div>
+	<div class="translation" id="b2s-24">Parker performed better than the data reflected last season, not only because his efficiency was at the highest level of his career, but his chemistry with Aldridge also benefited the Spurs.</div>
+	<div class="translation" id="b2s-24">Parker's performance last season was better than his stats suggested. Not only did Parker achieve his career best in rebound efficiency, his chemistry with Aldridge also benefited the Spurs.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-25">b2s-25</div>
+	<div class="source" id="b2s-25">然而，就在大部分互联网医疗企业挣扎在A轮或B轮的融资路上的时候，有几家细分领域领先企业仍能获得资本热捧。</div>
+	<div class="translation" id="b2s-25">However, just as most of the IOMT companies struggled in the A or B round of financing, there were several leading companies in the niche areas who were still able to obtain sufficient capital.</div>
+	<div class="translation" id="b2s-25">However, just as most internet healthcare companies struggle to finance rounds A and B, several segment leaders are still gaining traction.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-26">b2s-26</div>
+	<div class="source" id="b2s-26">11日上午,青岛双桃精细化工(集团)有限公司总经理赵秀平来到青岛市排污权交易中心提交排污权申购。</div>
+	<div class="translation" id="b2s-26">On the morning of the 11th, Zhao Xiuping, the president of Qingdao Shuangtao Jingxi Chemical Industry (Group) Limited Company, came to the Qingdao Emissions Trading Center to submit an application to purchase an emission permit.</div>
+	<div class="translation" id="b2s-26">In the morning of the 11th, Zhao Xiuping, general manager of Qingdao Shuangtao Jingxi Chemical Industry (Group) came to the Qingdao City Emissions Trading Center to submit an application to purchase emission rights.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-27">b2s-27</div>
+	<div class="source" id="b2s-27">张东红将奖牌和奖章整齐摆放，证书则统一放进了文件夹保存，“这些都是彬彬十几年心血换来的荣誉，我们都很珍惜。”</div>
+	<div class="translation" id="b2s-27">Zhang Donghong displayed the medals and awards neatly, and kept all the certificates in a folder. "These are the honors Binbin has received over the years on the basis of her hard work and dedication. All of us cherish them."</div>
+	<div class="translation" id="b2s-27">Zhang Donghong arranged the medals neatly, and the certificates in a folder. “These are the result of Binbin's hard work in these 10 years and so, and are very precious to us."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-28">b2s-28</div>
+	<div class="source" id="b2s-28">厦门翔安区东园村的张东红前几天刚把家中29寸的老电视，换成了65寸的大电视。</div>
+	<div class="translation" id="b2s-28">Zhang Donghong, of Dongyuan Village, Xiamen's Xiang'an District, just a few days ago replaced the 29-inch old TV in his home with a 65-inch one.</div>
+	<div class="translation" id="b2s-28">Zhang Donghong from Dongyuan Village in Xiang'an District of Xiamen just replaced an old 29-inch TV with a 65-inch TV at his home.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-29">b2s-29</div>
+	<div class="source" id="b2s-29">父母说，无论是见面还是打电话，张彬彬很少说自己的辛苦，更多的是跟父母聊些开心的事。</div>
+	<div class="translation" id="b2s-29">Her parents said that regardless of being together or on the phone, she would seldom talk about her hardship and would mostly talk about something happy with her parents.</div>
+	<div class="translation" id="b2s-29">Parents said, whether it is to meet or call, Zhang Binbin rarely said their hard work, more with their parents to talk about something happy.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-30">b2s-30</div>
+	<div class="source" id="b2s-30">另外，报道还指出，在塔国2016年的经济发展和通胀的问题上，塔政府与一些主要的国际金融机构的预测存在着一定的出入。</div>
+	<div class="translation" id="b2s-30">Also, the report international between development of government there forecasts the financial major out when that discrepancies some comes points the institutions to and some the in are and inflation of economic the it country in 2016.</div>
+	<div class="translation" id="b2s-30">Reports further pointed out that for economic development and inflation issues faced by Tajikistan in 2016, the Tajik government and a number of major international financial institutions made different predictions in these areas.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-31">b2s-31</div>
+	<div class="source" id="b2s-31">“这是一场精彩绝伦的表演，音乐、灯光、舞台表演都让我印象深刻，……我觉得很有必要让女儿也来了解中国文化和中国京剧艺术。”</div>
+	<div class="translation" id="b2s-31">"It was a I the lighting of stage it my Chinese about and and and the daughter felt brilliant for music, by the to the was performance, I necessary culture learn performance... impressed Beijing was art Opera as well."</div>
+	<div class="translation" id="b2s-31">"This was a fantastic performance. The music, lighting and stage performance left an indelible impression on me ...... I feel that it is absolutely necessary for my daughter to also come and understand Chinese culture and the art of Chinese Peking opera."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-32">b2s-32</div>
+	<div class="source" id="b2s-32">“有偿获得排污权并不等于获得了违法排污的权力,并不能随意地排放污染物。”</div>
+	<div class="translation" id="b2s-32">"Paying for emission rights does not mean gaining the right to generate illegal emissions. The payer may not emit waste as they like."</div>
+	<div class="translation" id="b2s-32">"Purchasing an emission permit does not grant permission to freely discharge illegal pollutants."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-33">b2s-33</div>
+	<div class="source" id="b2s-33">11日上午，济宁市公交公司IC卡销售中心，办卡窗口前几位老年人正在排队办卡，62岁的姚大爷拿到老年半价卡。</div>
+	<div class="translation" id="b2s-33">On Monday morning, the IC card sales center of Jining city bus company, several old people in front of the card window are queuing up to get the card, 62-year-old Master Yao got the old age half-price card.</div>
+	<div class="translation" id="b2s-33">The IC card sales counter had a line of seniors on the morning of the 11th at the Jining Public Transport Company. The 62 year old Mr. Yao got his half-fare card for seniors.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-34">b2s-34</div>
+	<div class="source" id="b2s-34">今年已经27岁的张彬彬，在16年的射击生涯中，其实有几度都差点与这块来之不易的银牌擦身而过。</div>
+	<div class="translation" id="b2s-34">Across her 16-year shooting career, Zhang Binbin, who is 27-year old this year, brushed past this hard-won silver medal on several occasions.</div>
+	<div class="translation" id="b2s-34">For Zhang Binbin who is already 27, it was a hard-fought silver medal in her 16 years of her shooting career.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-35">b2s-35</div>
+	<div class="source" id="b2s-35">鱼跃出资1200.00万元，占注册资本的40%，九州通器械公司出资1800.00万元，占注册资本的60%。</div>
+	<div class="translation" id="b2s-35">Jiangsu Yuyue Mdcl Eqpmnt & Spply Co Ltd. invested 120 million yuan, accounting for 40% of the registered capital, and Jiuzhou Tongji Machinery Co., Ltd. invested 180 million yuan, accounting for 60% of the registered capital.</div>
+	<div class="translation" id="b2s-35">Yuyue contributed 12.0000 million dollars, comprising 40% of the registered capital, while Jointown Pharmaceutical provided 18.0000 million dollars for 60% of the registered capital.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-36">b2s-36</div>
+	<div class="source" id="b2s-36">就如同昨天的比赛，这位厦门姑娘的用坚持实现了射击之路上的一个个逆转。</div>
+	<div class="translation" id="b2s-36">Just like the competition yesterday, this daughter of Xiamen persisted and once again turned the tables in her shooting career.</div>
+	<div class="translation" id="b2s-36">Like yesterday's game, she persisted and overcame the hurdles in her shooting career.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-37">b2s-37</div>
+	<div class="source" id="b2s-37">但这并不意味着汤神的水平退步，这更像是他为球队整体做出了牺牲。</div>
+	<div class="translation" id="b2s-37">But this does not mean Thompson's playing ability will get worse. It is more a matter of fact that he will need to make some sacrifice for the team.</div>
+	<div class="translation" id="b2s-37">This does not mean that Thompson's standards have dropped. In fact, it appears that he's making sacrifices for the sake of the entire team.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-38">b2s-38</div>
+	<div class="source" id="b2s-38">张小龙告诉记者，女儿一直是个安静乖巧的孩子，从小就喜欢画画和自制手工玩具，</div>
+	<div class="translation" id="b2s-38">Zhang Xiaolong told the reporters that her daughter was always a quiet and obedient girl who liked to draw and play with homemade toys when she was small.</div>
+	<div class="translation" id="b2s-38">Zhang Xiaolong told reporters that his daughter has been a quiet and well-behaved children, from an early age like painting and homemade hand-made toys,</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-39">b2s-39</div>
+	<div class="source" id="b2s-39">当天,青岛四方新诚志卓客车配件有限公司也来为年产4200件高铁及动车组内饰配件项目申购排污权。</div>
+	<div class="translation" id="b2s-39">On the same day, Qingdao Sifang Xinchengzhizhuo Bus Accessories Co., Ltd. has also come to the annual output of 4,200 high-speed rail and EMU interior accessories projects to purchase emission rights.</div>
+	<div class="translation" id="b2s-39">On the same day, Qingdao Sifang Xincheng Zhizhuo Coach Parts Co., Ltd. also came to purchase emission permits for their annual production of 4,200 pieces of high-speed rail and EMU (Electrical Multiple Unit) interior parts.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-40">b2s-40</div>
+	<div class="source" id="b2s-40">目前，老年卡分为两种，一种是老年免费卡，一种是老年半价卡。</div>
+	<div class="translation" id="b2s-40">Currently, two types of senior citizen cards are offered. One is a free pass for senior citizens, while the other is a half-price pass for senior citizens.</div>
+	<div class="translation" id="b2s-40">Currently, there are 2 types of cards for seniors. One is a free-fare card for seniors and the other is a half-fare card for seniors.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-41">b2s-41</div>
+	<div class="source" id="b2s-41">这一竞争可能不会来的很快，西蒙斯还需要适应NBA赛场，恩比德也要尽快从伤病中完全恢复，但是奥卡福能否在76人的长人阵中有位置还是个问题。</div>
+	<div class="translation" id="b2s-41">The rivalry may not come soon, Simmons will have to adapt to the NBA and Embiid will have to fully recover from the injury as soon as possible, but Okafor's place in the 76ers' lineup remains a question.</div>
+	<div class="translation" id="b2s-41">Playing for the spot won't be right away as Simmons still needs to get used to the NBA games, and Embiid need to quickly recover from injuries. The issue remains if Okafor will be able to stay in the 76'ers roster in the long run.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-42">b2s-42</div>
+	<div class="source" id="b2s-42">“原来我会在家里做做衣服、缝缝补补，彬彬就会捡一些边角料自己做娃娃。”</div>
+	<div class="translation" id="b2s-42">"When I would sew and repair clothes at home, Binbin would use the scrap pieces and make a doll herself.</div>
+	<div class="translation" id="b2s-42">"Originally, I stayed at home to tailor some clothes, sewing and mending them as needed. Binbin would sit by the corner, collecting the scrap fabrics to make her own fabric doll."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-43">b2s-43</div>
+	<div class="source" id="b2s-43">此次即将完成的交易首单也预示着青岛排污权交易试点工作正式拉开序幕,这也将是全省排污权交易首单和全国城市级排污权交易首单。</div>
+	<div class="translation" id="b2s-43">The transaction is about to complete the first single also indicates that Qingdao emissions trading pilot work officially kicked off, which will be the province's emissions trading first single and the first nationwide city-level emissions trading.</div>
+	<div class="translation" id="b2s-43">The first trading done represents that the carbon emission trading pilot program has officially started, and will be the first in the province to introduce the emission trading scheme at the city-level.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-44">b2s-44</div>
+	<div class="source" id="b2s-44">据悉，当地消防队花费了1小时45分钟才扑灭大火，附近建筑的居民在几小时后获准返回住处。</div>
+	<div class="translation" id="b2s-44">It was reported that the fire took the local firefighters 1 hour and 45 minutes to extinguish, and residents in nearby buildings were able to return to their homes after a few hours.</div>
+	<div class="translation" id="b2s-44">It was reported that the local fire department took one hour and 45 minutes to put out the fire. Residents in nearby buildings were only allowed to return to their homes a few hours later.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-45">b2s-45</div>
+	<div class="source" id="b2s-45">他还说，如果不对极端主义势力进行打击，这些势力会扩展到俄罗斯。</div>
+	<div class="translation" id="b2s-45">He added that if extremist organizations are not suppressed, these forces will spread to Russia.</div>
+	<div class="translation" id="b2s-45">Without into they a on crackdown extremist he would Russia, forces, expand added.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-46">b2s-46</div>
+	<div class="source" id="b2s-46">案件发生后，海口市公安局刑警支队领导高度重视，立即组织支队一大队精干警力主动出击展开侦查。</div>
+	<div class="translation" id="b2s-46">After the case occurred, leaders of the criminal police department of the  Haikou public security bureau attached great importance to the matter, and immediately organized a team of elite police force to initiate the investigation.</div>
+	<div class="translation" id="b2s-46">After the case, detachment elite leadership Bureau, of to take great importance police criminal the Municipal Public Haikou force organized attaches immediately of initiative a Security police to the the detachment to, launch an investigation.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-47">b2s-47</div>
+	<div class="source" id="b2s-47">根据青岛市物价、财政等部门确定的征收标准,目前预估算的初始排污权使用费约为64.12万元,工作人员将在7个工作日内完成核定。</div>
+	<div class="translation" id="b2s-47">According to Qingdao prices, finance and other departments to determine the collection standards, the current estimated initial sewage right to use about 644.12 million yuan, staff will be completed within seven working days to verify.</div>
+	<div class="translation" id="b2s-47">The estimated initial emission fee is approximately 641,200 yuan according to the collection standards set by Qingdao Pricing Administration. The staff will process and verify it within 7 business days.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-48">b2s-48</div>
+	<div class="source" id="b2s-48">平时见不到女儿，父母在家中将女儿小时候的画作以及历年的荣誉都细心收存着。</div>
+	<div class="translation" id="b2s-48">As they aren't able to see their daughter often, they make sure to carefully keep the drawings she made when she was little at home.</div>
+	<div class="translation" id="b2s-48">Since they hardly see their daughter, the parents carefully preserved the artwork that their girl has made as a child and the glories that she had later won.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-49">b2s-49</div>
+	<div class="source" id="b2s-49">在得到了第三枚总冠军戒指之后，只有贾巴尔、乔丹和拉塞尔比詹姆斯赢得了更多的常规赛MVP，而乔丹是唯一一个FMVP比詹姆斯多的人。</div>
+	<div class="translation" id="b2s-49">After getting their third championship ring, only Abdul-Jabbar, Jordan and Russell won more regular-season MVPs than James, and Jordan was the only one with more than James.</div>
+	<div class="translation" id="b2s-49">After winning the third championship ring, only Jabbar, Jordan and Russell and James won more regular-season MVPs, and Jordan is the only person with more Finals MVP than James.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-50">b2s-50</div>
+	<div class="source" id="b2s-50">这次，不仅张亚杰教练，厦门射击射箭运动中心和福建省队的领导和教练都来到家里，最终劝说张彬彬回到省队。</div>
+	<div class="translation" id="b2s-50">This time, not only coach Zhang, but also the managers and coaches of the Xiamen Shooting and Archery Sports Center and the Fujian provincial team came to her home to persuade Zhang Binbin to return to the provincial team.</div>
+	<div class="translation" id="b2s-50">This time, not only coach Zhang Yajie, Xiamen Shooting and Archery Sports Center and Fujian Province team leaders and coaches came to the home, and eventually persuaded Zhang Binbin to return to the provincial team.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-51">b2s-51</div>
+	<div class="source" id="b2s-51">互联网公司、数据公司缺少专业性，在同一词条上的书写方法上都达不到统一。</div>
+	<div class="translation" id="b2s-51">Tech companies and data companies lack professionalism and cannot cooperate.</div>
+	<div class="translation" id="b2s-51">Internet companies, data companies lack professionalism in the same entry on the writing methods are not uniform.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-52">b2s-52</div>
+	<div class="source" id="b2s-52">充满电子的电离层意味着，军方使用的无线电有着更大的播送范围，并且它或许会为全球定位系统（GPS）信号提供一些保护，使之免受太阳风暴的影响。</div>
+	<div class="translation" id="b2s-52">The electron-filled ionosphere means that the radio used by the military has a greater range, and it may provide some protection against solar storms for Global Positioning System (GPS) signals.</div>
+	<div class="translation" id="b2s-52">The layers filled with electrons means that the radio used by the military has a larger transmission scope, and it may provide some protection for Global Positioning System (GPS) signals from the effects of solar storms.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-53">b2s-53</div>
+	<div class="source" id="b2s-53">赵秀平说,目前企业环保已投资达4个亿,表面上数额巨大,但对企业经营管理理念、社会效益都有很大影响,对企业创新管理也开辟了空间。</div>
+	<div class="translation" id="b2s-53">Zhao Xiuping said: At present, enterprises have invested 400 million in environmental protection, a huge amount on the surface, but the concept of business management, social benefits have a great impact on the enterprise innovation and management has also opened up space.</div>
+	<div class="translation" id="b2s-53">Zhao Xiuping mentioned that he has invested RMB 400 million on corporate environmental responsibility. Despite being a large amount of money put into this, it greatly impacts the company's philosophy, social responsibility, and also opens up a new level of innovation management.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-54">b2s-54</div>
+	<div class="source" id="b2s-54">杜兰特的到来一定会让勇士队的球员们数据缩水，但这其中缩水最严重的恐怕就是汤普森了。</div>
+	<div class="translation" id="b2s-54">The arrival of Durant will limit the stats of the Warrior's players, and the player that would be the most affected would most likely be Thompson.</div>
+	<div class="translation" id="b2s-54">The arrival of Durant will definitely result in a drop in numbers among Warriors' players, but Thompson will probably have the most to lose.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-55">b2s-55</div>
+	<div class="source" id="b2s-55">其母张小龙告诉记者，就在他们犹豫时，张彬彬找来了同村的几个“小说客”。</div>
+	<div class="translation" id="b2s-55">Zhang Xiaolong, his mother, told reporters that just as they hesitated, Zhang Binbin sought several "novelists" from the same village.</div>
+	<div class="translation" id="b2s-55">Zhang's mother, Xiaolong told the reporters that when they felt hesitant about her doing this, Zhang Binbin brought a group of "young kids" from the same village to persuade her parents.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-56">b2s-56</div>
+	<div class="source" id="b2s-56">这一影响将不仅是出手次数的影响，汤神的持球进攻在下赛季肯定也会大大减少，这在某些方面也会降低对手对他的防守难度。</div>
+	<div class="translation" id="b2s-56">The impact will be not only in terms of the number of shots taken, but the Towns' holding offense will certainly be significantly reduced next season, which in some ways will also make it easier for opponents to defend him.</div>
+	<div class="translation" id="b2s-56">This will impact his shots taken and will surely reduce greatly next season and make the opponent defend him easier.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-57">b2s-57</div>
+	<div class="source" id="b2s-57">“符合条件的老年人，持二代身份证到IC销售中心办理就可以；外地户口符合这个年龄的老年人也享受这个优惠。”</div>
+	<div class="translation" id="b2s-57">"Eligible seniors can bring 2 pieces of ID to the IC card sales counter to apply. Seniors in this age group who are from out of the country can also enjoy this discount."</div>
+	<div class="translation" id="b2s-57">"Senior citizens who meet the conditions can simply bring their second generation identity card to an IC sales center to apply for the item. Senior citizens with household registration outside the city who meet the age criteria can also enjoy this benefit."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-58">b2s-58</div>
+	<div class="source" id="b2s-58">由于有些住户仍下落不明，他也呼吁起火公寓的居民与当局联络。</div>
+	<div class="translation" id="b2s-58">He also appealed to the residents of the apartment that caught fire to contact the authorities, as some of the occupants were still unaccounted for.</div>
+	<div class="translation" id="b2s-58">As the whereabouts of some residents are still unknown, he also asked the residents of the apartment that was in flames to contact the authorities.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-59">b2s-59</div>
+	<div class="source" id="b2s-59">阿里目前在医疗健康领域的布局分为三块，分别是阿里健康、天猫医药馆和支付宝未来医院。</div>
+	<div class="translation" id="b2s-59">Alibaba's current presence in the healthcare industry is divided into three sections: AliHealth, Tmall Online Pharmacy, and Alipay's "Future Hospital" program.</div>
+	<div class="translation" id="b2s-59">Ali's current layout in the field of health care is divided into three sections, namely Ali Health, Tmall Medicine Hall and Alipay Future Hospital.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-60">b2s-60</div>
+	<div class="source" id="b2s-60">据媒体报道，CEO王磊近日表示阿里健康“愿意沉下心来”拿下健康大数据。</div>
+	<div class="translation" id="b2s-60">CEO Wang Lei recently said Ali Health was "willing to sink in" to take down health big data, according to media reports.</div>
+	<div class="translation" id="b2s-60">According to media reports, CEO Wang Lei recently stated that AliHealth "has decided" to compile the healthcare data.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-61">b2s-61</div>
+	<div class="source" id="b2s-61">当然了，有些“退步”可能仅仅是数据的缩水，这些球员的实力可能并未下降。</div>
+	<div class="translation" id="b2s-61">Of course, some of the "regressions" may simply be data shrinkage, and the strength of these players may not have diminished.</div>
+	<div class="translation" id="b2s-61">Of course those deemed to have "gotten worse" may just be due to the limited stats and data, and they may actually not have gotten worse.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-62">b2s-62</div>
+	<div class="source" id="b2s-62">印度一名大叔上周刚在迪拜国际机场经历飞机机腹着陆惊魂，本周就在同一座机场中了100万美元大奖。</div>
+	<div class="translation" id="b2s-62">A middle-aged man from India, having survived a terrifying episode when the flight he took was forced to belly land at Dubai International Airport, won a 1 million USD lottery prize this week at the same airport.</div>
+	<div class="translation" id="b2s-62">An Indian at great-uncle plane million the a after this crash Dubai same landing a suffering week at International $1 airport has Airport won prize last week.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-63">b2s-63</div>
+	<div class="source" id="b2s-63">而在张彬彬家二楼客厅，有一个柜子内放满了她所获得的奖章、奖牌和证书。</div>
+	<div class="translation" id="b2s-63">And in the living room on the second floor of Zhang Binbin's home, there is a cupboard full of medals, medals and certificates she has received.</div>
+	<div class="translation" id="b2s-63">In the living room on the second floor of Zhang Binbin's house, there is a cupboard full of medals, and certificates she has won.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-64">b2s-64</div>
+	<div class="source" id="b2s-64">因此，在常规赛里，詹姆斯的数据很可能进一步下滑，他会把更多的重担分给欧文来承担，不过他仍然会轻松地成为联盟前三的球员。</div>
+	<div class="translation" id="b2s-64">His stats will probably decline in the regular season as give the ball more to Osman. However, he will still easily be the top three players in the league.</div>
+	<div class="translation" id="b2s-64">As a result, James' numbers are likely to slide further during the regular season, and he'll share more of the burden with Irving, though he'll still be an easy top-three player in the league.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-65">b2s-65</div>
+	<div class="source" id="b2s-65">不过问题是，随着杜兰特的到来，汤普森的使用率一定会下降，这势必将影响他的发挥。</div>
+	<div class="translation" id="b2s-65">The problem is that with the arrival of Durant, the chance for having Thompson play in the games will definitely drop, further lowering his chances of performing.</div>
+	<div class="translation" id="b2s-65">However, with Durant joining the team, the issues would be that Thompson's use rate will certainly decline, and is bound to affect his performance.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-66">b2s-66</div>
+	<div class="source" id="b2s-66">决赛中，张彬彬又是在一度排名靠后的情况下，最后几枪越打越稳，仅以落后冠军0.2环成绩夺得银牌。</div>
+	<div class="translation" id="b2s-66">In the finals, she was on the bottom end of the ranking but her last few shots got more stable and won the silver medal with only 0.2 points behind the champion.</div>
+	<div class="translation" id="b2s-66">In the final, Zhang Binbin was once ranked in the situation, the last few shots more and more stable, only 0.2 ring behind the champion to win the silver medal.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-67">b2s-67</div>
+	<div class="source" id="b2s-67">据悉，在这栋公寓住了30年的杜雷女士(Mariana Turay)表示：“好像有炸弹掉下来。”</div>
+	<div class="translation" id="b2s-67">It was reported that Mariana Turay, who had lived in this apartment block for 30 years, said, "It was like a bomb had fallen."</div>
+	<div class="translation" id="b2s-67">Based on the report, Mariana Turay who has lived in the apartment for 30 years commented that "it was as if a bomb was dropped".</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-68">b2s-68</div>
+	<div class="source" id="b2s-68">9月1日起，60岁至64岁的老年人可以半价乘坐城区的公交车。</div>
+	<div class="translation" id="b2s-68">From September 1st, seniors aged 60-64 can use city bus at half-price.</div>
+	<div class="translation" id="b2s-68">From 1 September, older people aged 60 to 64 will be able to ride city buses at half the price.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-69">b2s-69</div>
+	<div class="source" id="b2s-69">就在进入厦门队后不久，张彬彬又一度因为家庭困难等原因，主动回到翔安的学校读书。</div>
+	<div class="translation" id="b2s-69">Shortly after entering the Xiamen team, Zhang Binbin and once again because of family difficulties and other reasons, take the initiative to return to the school in Xiang'an.</div>
+	<div class="translation" id="b2s-69">However, shortly after joining the Xiamen team, Zhang Binbin decided to go back to school in Xiang'an to study due to family hardships.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-70">b2s-70</div>
+	<div class="source" id="b2s-70">此前，济宁市老龄委、市财政局、市交通局下发《关于60—64周岁老年人半价乘坐城区公交车的通知》，该优惠政策从今年的9月1日正式实施。</div>
+	<div class="translation" id="b2s-70">In the past, the Aging Problem Commission, Finance Bureau, and Transportation Bureau of Jining City released Notice for Half-Price Urban Bus Fares for Senior Citizens 60-64 Years of Age. This welfare policy was formally enforced on September 1 this year.</div>
+	<div class="translation" id="b2s-70">Previously, the Jining Senior Advisory Committee, the Municipal Bureau of Finance, and the Municipal Communications Bureau issued the “Notice on the Half-price Public Transportation of City Buses for seniors aged 60-64”, which was formally implemented on September 1 this year.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-71">b2s-71</div>
+	<div class="source" id="b2s-71">另据香港艾力彼医院管理研究中心数据显示，创业一年内的互联网医疗公司大量死亡，约20%的初创互联网医疗企业已不复存在。</div>
+	<div class="translation" id="b2s-71">According to data from the Centre for Management Research at Ellison Hospital in Hong Kong, a large number of Internet medical companies have died within one year of their establishment, and about 20 per cent of the start-up Internet medical companies have ceased to exist.</div>
+	<div class="translation" id="b2s-71">According to data from the Hong Kong Alec Hospital Management Research Center, a large number of venture IOMT companies have gone out of business within a year of starting, and about 20% of them have disappeared.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-72">b2s-72</div>
+	<div class="source" id="b2s-72">集中签约的20个项目总投资80.63亿元，涉及新能源、新材料、现代服务业等多个行业。</div>
+	<div class="translation" id="b2s-72">Total investments for 20 projects of the centralized agreement amounted to 8.063 billion RMB, and involves multiple sectors such as new energy, new materials, and modern services.</div>
+	<div class="translation" id="b2s-72">The 20 number such and involve modern materials centrally energy, investment industries with of a contracted projects, new billion of 8.063 new as a yuan, total service industries.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-73">b2s-73</div>
+	<div class="source" id="b2s-73">青岛市环保局副局长汉红燕介绍,如果违法排污、超标排污仍然要按照相关的法规予以处罚,不可能允许违法企业通过购买排污权的方式来规避处罚。</div>
+	<div class="translation" id="b2s-73">Han Hongyan, the Deputy Director of the Environmental Protection Bureau of Qingdao stated the those who discharge illegal pollutants and excessive pollutants will still be punished according to the regulation; those discharging illegal discharge of pollutants and excessive discharge of pollutants will still have to be punished in accordance with relevant regulations, and companies will not be able to purchase emission permits to avoid punishment for illegal or excessive discharges.</div>
+	<div class="translation" id="b2s-73">Deputy Director Han Hongyan of the Qingdao Environmental Protection Bureau explained that illegal emissions or emissions that exceed specified limits shall be subject to penalties according to relevant laws. Violating companies will not be able to purchase emission rights to avoid punishments.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-74">b2s-74</div>
+	<div class="source" id="b2s-74">2016年1月1日前已取得环评的现有排污单位,暂不征收有偿使用费。</div>
+	<div class="translation" id="b2s-74">The carbon credits obtained from EIA before January 1, 2016 will not be charged with the usage fee for the time being.</div>
+	<div class="translation" id="b2s-74">Existing polluting companies that have received a bad rating prior to January 1, 2016 will be temporarily exempt from the usage fee.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-75">b2s-75</div>
+	<div class="source" id="b2s-75">下一步,在污染物排放总量不超过允许排放量的前提下,内部各污染源之间通过货币交换的方式相互调剂排污量。</div>
+	<div class="translation" id="b2s-75">In the next step, under the pretext of keeping total emissions within the allowable emission volume, various internal sources of pollution shall use currency exchange to modulate emissions.</div>
+	<div class="translation" id="b2s-75">The next step, assuming that the discharged pollutant does not exceed the limit is to control the emission amount  through carbon emission trading.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-76">b2s-76</div>
+	<div class="source" id="b2s-76">在当日的比赛中，张彬彬一度排名中下游，似乎距离决赛十分遥远。</div>
+	<div class="translation" id="b2s-76">In that day's competition, Zhang Binbin once ranked in the middle and lower reaches, seems to be very far away from the final.</div>
+	<div class="translation" id="b2s-76">In the day of the event, Zhang Binbin was at one point in the lower part of the ranking and did not seem she would reach the finals.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-77">b2s-77</div>
+	<div class="source" id="b2s-77">赵秀平提交了申请表、建设项目环境影响报告书等材料后,青岛市排污权储备和交易服务中心开始对申请材料进行初审。</div>
+	<div class="translation" id="b2s-77">After Zhao Xiuping submitted the construction and environmental assessment permit application, the Qingdao Emissions Trading Center started to do a preliminary review of the submitted application.</div>
+	<div class="translation" id="b2s-77">After Zhao Xiuping submitted the application form, the environmental impact statement of the construction project and other materials, the Qingdao Municipal Emission Right Reserve and Trading Service Center began the preliminary examination of the application materials.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-78">b2s-78</div>
+	<div class="source" id="b2s-78">哦，对了，詹姆斯刚刚为克利夫兰带来了过去52年里第一座职业体育冠军奖杯。</div>
+	<div class="translation" id="b2s-78">O yes, James has just helped deliver the first professional sports championship trophy to Cleveland in 52 years.</div>
+	<div class="translation" id="b2s-78">Oh and James has just brought home Cleveland's first professional sports championship cup in 52 years.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-79">b2s-79</div>
+	<div class="source" id="b2s-79">他和隆多组成的后场射程有限，当家球星巴特勒的三分命中率也只有32.8%，这让他们下赛季的进攻会打得很拥挤。</div>
+	<div class="translation" id="b2s-79">The backcourt range of Wade and Rondo is limited and Butler who is the star player only has a 32.8% 3-point percentage. This will make their offence limited in the next season.</div>
+	<div class="translation" id="b2s-79">He and Rondo have limited backcourt range and the establishment star Butler is shooting just 32.8 percent from three-point range, making their offense crowded for next season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-80">b2s-80</div>
+	<div class="source" id="b2s-80">即便韦德仍是联盟里最好的得分后卫之一，但是他在公牛的表现应该不会有热火那么好了。</div>
+	<div class="translation" id="b2s-80">Despite Dwayne Wade being one of the top shooting guards in the league, he will probably not perform as well with the Bulls than he did back with the Heat.</div>
+	<div class="translation" id="b2s-80">Although Wade is still regarded as one of the best shooting guards in the NBA, his performance with the Bulls will unlikely be as good as when he was at Miami Heat.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-81">b2s-81</div>
+	<div class="source" id="b2s-81">有了经济利益的驱动,减少污染物的排放就从政府的强制行为变为企业自觉的市场行为,从而真正达到保护环境、保护自然、保障公众健康的目的。</div>
+	<div class="translation" id="b2s-81">With the economic benefits being a factor, the government's bold action has lead to company's to react to take action on reducing emissions. This will all lead to protecting the environment, nature, and the health of the public.</div>
+	<div class="translation" id="b2s-81">Driven by economic interest, reducing emission of pollutants will shift from mandatory acts imposed by the government to conscious corporate market behavior. Thus, the goal of protecting the environment and nature as well as ensuring public health will be achieved.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-82">b2s-82</div>
+	<div class="source" id="b2s-82">很显然，萨里奇已经展现出了他的天赋，并且让76人对他充满期待。</div>
+	<div class="translation" id="b2s-82">It's that looking has talent to has 76 shown people clear and forward his Saric him.</div>
+	<div class="translation" id="b2s-82">Clearly, Šarić has already displayed his gift, and the 76ers are expecting many things from him.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-83">b2s-83</div>
+	<div class="source" id="b2s-83">在有些夜晚，电离层充满自由电子，这意味着，无线电信号可以走得更远。</div>
+	<div class="translation" id="b2s-83">The ionosphere would be full of electrons on some night, which means radio signals can travel further.</div>
+	<div class="translation" id="b2s-83">The ionosphere is filled with free electrons on some nights, which implies that radio signals can travel further.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-84">b2s-84</div>
+	<div class="source" id="b2s-84">张东红也回忆，在集训测试中，女儿虽然成绩不是最好，但打出的环数很稳定，这也是张彬彬吸引教练的重要原因。</div>
+	<div class="translation" id="b2s-84">Zhang Donghong also recalled that in the training test, his daughter, although not the best results, but hit the ring number is stable, which is an important reason for Zhang Binbin attracted coaches.</div>
+	<div class="translation" id="b2s-84">Zhang Donhong also remembered that during the test in the training, despite her scores not being the best, her points were very consistent which was the reason the coaches were fond of Zhang Binbin.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-85">b2s-85</div>
+	<div class="source" id="b2s-85">现在企业为了自身的利益,提高了治污的积极性,珍惜有限的排污权,减少了污染物排放。</div>
+	<div class="translation" id="b2s-85">Companies have now put their focus on managing emissions for their own benefit and appreciate limiting the emission amount which has lead to a reduction of pollutants being discharged.</div>
+	<div class="translation" id="b2s-85">Enterprises are now more enthusiastic about pollution treatment because of their own interests; limited emission rights are valued, and emission of pollutants has decreased.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-86">b2s-86</div>
+	<div class="source" id="b2s-86">虽然拥有稳定的大量自由电子的电离层可以帮助人们在某个大学广播电台的播送范围边缘收听这个电台，但这或许不是美国空军的兴趣所在。</div>
+	<div class="translation" id="b2s-86">A stable mass of electrons in the ionosphere can help one listen to the radio by the university radio station but that is not exactly what the US Air Force is interested in.</div>
+	<div class="translation" id="b2s-86">While an ionosphere with a steady stream of free electrons could help people listen to a university radio station on the edge of its range, this may not be the Air Force's interest.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-87">b2s-87</div>
+	<div class="source" id="b2s-87">在当时的庭审中，双方就王志安是否侵犯了兰越峰的名誉权进行了激辩。</div>
+	<div class="translation" id="b2s-87">During the court proceedings, both parties engaged in a hot debate whether Wang Zhian violated Lan Yuefeng's right to reputation.</div>
+	<div class="translation" id="b2s-87">At the Wang the debated at two had the violated hearing time, sides court whether Yuefeng's right Lan Zhian to reputation.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-88">b2s-88</div>
+	<div class="source" id="b2s-88">未经北京冬奥组委许可，任何人不得将北京冬奥申委会徽、标志用于商业目的。</div>
+	<div class="translation" id="b2s-88">No one of of Winter Olympics the emblem commercial Beijing may Winter for purposes the Beijing use without Bidding Olympics logo Committee and the permission the Organizing Committee.</div>
+	<div class="translation" id="b2s-88">Unless authorized by the Beijing Winter Olympics organizing committee, no one is allowed to use the logo or mark of the Beijing Winter Olympics application committee for any commercial purposes.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-89">b2s-89</div>
+	<div class="source" id="b2s-89">王磊坦言，医疗健康创业会比其他行业要难，“这不仅仅是有多少钱的事情，还要沉得下心，耐得住寂寞慢慢去做。”</div>
+	<div class="translation" id="b2s-89">Wang Lei admitted that business in the healthcare is more difficult than other industries. “It is not simply having enough money, but to be able to persevere and work step by step."</div>
+	<div class="translation" id="b2s-89">"It's not just a matter of how much money you have," Wang admits. "It's a matter of getting down and being able to live with the loneliness and do it slowly."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-90">b2s-90</div>
+	<div class="source" id="b2s-90">但是在其启蒙教练张亚杰反复做工作后，张彬彬又回到了厦门队。</div>
+	<div class="translation" id="b2s-90">But after the coach Zhang Yajie, kept convincing her, she returned to the Xiamen team again.</div>
+	<div class="translation" id="b2s-90">Zhang Binbin returned to Xiamen Team after being repeatedly persuaded by her first coach Zhang Yajie.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-91">b2s-91</div>
+	<div class="source" id="b2s-91">无论是因为年龄的增大还是出场时间被限制，每个赛季都有一些球员的表现会出现退步。</div>
+	<div class="translation" id="b2s-91">Whether it is due to age or limited playing time, there are always players who gets worse each season.</div>
+	<div class="translation" id="b2s-91">Due to aging or restrictions on playing time, performance of several players may become worse for each season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-92">b2s-92</div>
+	<div class="source" id="b2s-92">警察大队根据外语水平将他们分成9个小组，每周上2次课，学习自卫招式、法律法规和外语。</div>
+	<div class="translation" id="b2s-92">The police brigade attended foreign level, and into week on classes groups, laws to based twice and self-defense a divided regulations language nine their them techniques, learn and foreign languages.</div>
+	<div class="translation" id="b2s-92">Police headquarters divided them into nine teams according to their language skills. They attended two classes per week, and learned self-defense, the law, and foreign languages.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-93">b2s-93</div>
+	<div class="source" id="b2s-93">数据显示，最近１０年里，新西兰年均移民净流入数量为２.１８万人，年均人口自然增长数量为３.２３万人。</div>
+	<div class="translation" id="b2s-93">The figures show annual population years, million 10 average an the over net of 2.18 last Zealand natural and New growth migrants has of had annual inflow average that an of 3.23 million.</div>
+	<div class="translation" id="b2s-93">Figures indicate that in the last decade, New Zealand's average annual net migration flow was 21,800 persons, and the average annual organic population growth was 32,300 persons.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-94">b2s-94</div>
+	<div class="source" id="b2s-94">这种权利实质上是排污者对环境容量资源占有、使用和收益的权利。</div>
+	<div class="translation" id="b2s-94">This type of right limits the footprint of the polluters in the environment and a right to gain revenue.</div>
+	<div class="translation" id="b2s-94">This right is in essence, the right polluters have on the ownership, use and profit of existing resources in the environment.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-95">b2s-95</div>
+	<div class="source" id="b2s-95">在训练张彬彬的过程中，张亚杰印象最深的，则是这位农家女孩的投入。</div>
+	<div class="translation" id="b2s-95">In the process of training Zhang Binbin, Zhang Yajie remembered clearly the input provided by this farm girl.</div>
+	<div class="translation" id="b2s-95">In the process of training Zhang Binbin, Zhang Yajie was most impressed by the dedication of the peasant girl.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-96">b2s-96</div>
+	<div class="source" id="b2s-96">邓肯退役，吉诺比利宣布再战一年，GDP的组合最终也走到了尽头，作为三个人里最年轻的一个，法国跑车的油箱里也没有多少油了。</div>
+	<div class="translation" id="b2s-96">Duncan retired, Ginobili announced another year of fighting, and the GDP combination finally came to an end, and as the youngest of the three, the French sports car didn't have much fuel in its tank.</div>
+	<div class="translation" id="b2s-96">With Duncan retiring and Ginobili playing one last season, the era of Ginobili, Duncan and Parker will finally come to an end. As the youngest of the three, there is not much gas left in the tank for the French import.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-97">b2s-97</div>
+	<div class="source" id="b2s-97">据媒体披露，由于此前资本大规模涌入互联网医药，造成目前产品同质化的问题严重，投资热潮渐退，资本进入观望期。</div>
+	<div class="translation" id="b2s-97">Media revealed that the deluge of capital that swamped online health care resulted in the severe product homogeneity problem we see today. The investment boom is waning gradually. Capital has entered a wait-and-see period.</div>
+	<div class="translation" id="b2s-97">According to media reports, due to the large surge of capital into IOMT (internet of medical things), which resulted in a serious issue of product consistency. With the investment boom slowing down, investments have entered a wait-and-see period.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-98">b2s-98</div>
+	<div class="source" id="b2s-98">很多NBA球员都证明了自己的实力。但是有人进步就有人衰落。</div>
+	<div class="translation" id="b2s-98">Many NBA players have proven themselves, but progress for some meant regress for others.</div>
+	<div class="translation" id="b2s-98">Many NBA players are able to prove their ability to play but there are people who fall off.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-99">b2s-99</div>
+	<div class="source" id="b2s-99">我国从2007年开始进行试点,目前已有浙江、江苏等14个省(区、市)在全面推行。</div>
+	<div class="translation" id="b2s-99">China began to carry out pilot projects in 2007, and 14 provinces (autonomous regions and municipalities), including Zhejiang and Jiangsu, have been fully implemented.</div>
+	<div class="translation" id="b2s-99">China has been doing trials since 2007, and has implemented it in 14 provinces (in regions and cities) including Zhejiang and Jiangsu.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-100">b2s-100</div>
+	<div class="source" id="b2s-100">该项目属于机械加工企业,申请的初始排污权为化学需氧量(COD)0.514吨/年、氨氮(NOX)0.052吨/年。</div>
+	<div class="translation" id="b2s-100">This project was for the machining companies, with initial emission amount of 0.514 ton/yr of COD, and 0.052 ton/yr of NOX on their application.</div>
+	<div class="translation" id="b2s-100">This project is initiated by a mechanical processing company. The company is applying for an initial emissions as chemical oxygen demand (COD) of 0.514 tons/year and ammonia nitrogen (NOX) of 0.052 tons/year.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-101">b2s-101</div>
+	<div class="source" id="b2s-101">济宁市公交公司计算机中心副主任刘霞说，从8月1日开始办理以来，已办了200多张老年半价卡。</div>
+	<div class="translation" id="b2s-101">Liu Xia, the deputy director of the IT division of the Jining Public Transport Company, said that more than 200 half-fare cards for seniors has been issued August 1.</div>
+	<div class="translation" id="b2s-101">Liu Xia, deputy director of the Computer Center of Jining Public Transport Company, said that since it was first released on August 1, the company has processed over 200 half-price fair tickets for senior citizens.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-102">b2s-102</div>
+	<div class="source" id="b2s-102">日本“入常”之路始于上世纪90年代初，而由日本发起的非洲开发会议同样始于1993年，这不是巧合！</div>
+	<div class="translation" id="b2s-102">Japan's path to "become a permanent member" began in the early 1990s, and the Tokyo International Conference on African Development hosted by Japan began in 1993 as well; this was by no means a coincidence!</div>
+	<div class="translation" id="b2s-102">It is Japan, Japan's coincidence the as no African began while path early by in "business to that began Development also usual" initiated 1990s, the Conference, in 1993!</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-103">b2s-103</div>
+	<div class="source" id="b2s-103">厦门姑娘张彬彬：“手型漂亮”开始射击之路职业生涯几经“逆转”</div>
+	<div class="translation" id="b2s-103">The Young Zhang Binbin from Xiamen: She started her shooting career as she had "Beautiful Hands" and went through various "struggles".</div>
+	<div class="translation" id="b2s-103">Xiamen girl Zhang Binbin: "beautiful hand" began shooting career path several "reversal"</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-104">b2s-104</div>
+	<div class="source" id="b2s-104">他回忆说，张彬彬进入厦门射击队一年后多，队里进行立射的持久举枪训练，要求队员半个小时不能动。</div>
+	<div class="translation" id="b2s-104">He recalled that more than a year after Zhang Binbin entered the Xiamen Shooting Team, the team carried out a standing practice of raising a gun and asked the team members not to move for half an hour.</div>
+	<div class="translation" id="b2s-104">He recalls that around 1 year after Zhang Binbin joined the Xiamen Shooting team, the team had a endurance training exercise where they were not allowed to move for half an hour.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-105">b2s-105</div>
+	<div class="source" id="b2s-105">来到了风城，闪电侠势必把球权更多地让给巴特勒和隆多，自己很可能在常规赛选择养生打法。</div>
+	<div class="translation" id="b2s-105">In the windy city, the Flash (Wade) needs to give control of the ball more to Butler and Rondo, while he takes a more conservative approach and stay healthy.</div>
+	<div class="translation" id="b2s-105">Coming to Windy City, the Blitzkrieg is bound to cede more of the ball to Butler and Rondo, and he is likely to choose a regimen to play during the regular season.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-106">b2s-106</div>
+	<div class="source" id="b2s-106">哈米尔又说，另有34人受伤送医，包括3名消防人员受了轻伤，他们已经出院。</div>
+	<div class="translation" id="b2s-106">Hamir also said that 34 people were sent to the hospital of which 3 were firefighters with minor injuries and have already been discharged. </div>
+	<div class="translation" id="b2s-106">Hamill also said that another 34 were injured and in hospital, including three firefighters who sustained minor injuries; they have since been discharged.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-107">b2s-107</div>
+	<div class="source" id="b2s-107">近年来，随着国家在医疗信息化方面的政策支持，电子化、集成化的供应链管理系统逐步进入各级医院。</div>
+	<div class="translation" id="b2s-107">In recent years, the digitalized and integrated supply chain management system is slowly being utilized in various levels of hospitals thanks to country's support in the form of policies on the information of IOMT.</div>
+	<div class="translation" id="b2s-107">In recent years, with the state's policy support in medical information, electronic, integrated supply chain management system gradually into all levels of hospitals.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-108">b2s-108</div>
+	<div class="source" id="b2s-108">目前医生端开设三个板块，分别为医生继续教育、医生社交和医生求助。</div>
+	<div class="translation" id="b2s-108">Currently, the doctors can set up three sections for doctors to continue their education, communicate with other doctors, and request help from doctors.</div>
+	<div class="translation" id="b2s-108">At present, the doctor side opened three sections, respectively, for doctors to continue education, doctors social and doctors for help.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-109">b2s-109</div>
+	<div class="source" id="b2s-109">这些“小说客”是当年同时被推荐参加集训的同村小孩，其中还有张彬彬的表姐。</div>
+	<div class="translation" id="b2s-109">The "young kids" were from the same village who were also recommended to participate in the training at the same time. Among them was Zhang Binbin's cousin.</div>
+	<div class="translation" id="b2s-109">The "little lobbyists" are the kids from the same family participated the training by recommendation at hat time, including the cousin of Zhang Binbin.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-110">b2s-110</div>
+	<div class="source" id="b2s-110">她说，女儿常常会自己缝制手工玩具，加上她擅长画画，从娃娃的五官到衣饰，总能做得栩栩如生。</div>
+	<div class="translation" id="b2s-110">She said that her daughter would often sew and make her own toys. Coupled with the fact that she was good at drawing, she was able to create a lifelike face and clothing for the dolls she made.</div>
+	<div class="translation" id="b2s-110">She said that her daughter would often sew her own toys. As she also liked to draw, the facial expression and the clothes of the dolls she made looked really good.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-111">b2s-111</div>
+	<div class="source" id="b2s-111">来到了职业生涯第14个赛季的詹姆斯需要更好的保证体力，为季后赛做好准备。</div>
+	<div class="translation" id="b2s-111">In LeBron's 14 season of his career, he will need to maintain his physical condition to prepare for the playoffs.</div>
+	<div class="translation" id="b2s-111">James, who is in the 14th season of his professional career, needs to better retain his physical strength to prepare well for the playoffs.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-112">b2s-112</div>
+	<div class="source" id="b2s-112">但父母和亲朋好友没有放弃，不停地刷着文字直播，看到随着其他选手完赛，张彬彬名次一路提升，最终锁定决赛席位，其家中顿时爆发从一阵欢呼。</div>
+	<div class="translation" id="b2s-112">But the parents and friends did not give up, kept brushing the text live, see with the other players finished, Zhang Binbin all the way up the ranking, eventually locked up the final seat, his home immediately erupted from a burst of cheers.</div>
+	<div class="translation" id="b2s-112">However her parents and close friends did not give up on her as they kept their eyes on the text of the broadcast. Upon seeing other players finishing and where they were ranked, they saw Binbin's name go up the rank and secured a seat in the finals, when the families and friends burst in cheers at home.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-113">b2s-113</div>
+	<div class="source" id="b2s-113">据美国《大众科学》月刊网站8月11日报道，美国空军对复制这一效应感兴趣。</div>
+	<div class="translation" id="b2s-113">According to a report on the "Popular Science" monthly website on August 11, the US Air Force is interested in replicating this phenomenon.</div>
+	<div class="translation" id="b2s-113">The U.S. Air Force is interested in replicating the effect, according to the August 11 report on the website of the popular science magazine.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-114">b2s-114</div>
+	<div class="source" id="b2s-114">商洛供电公司丹凤县公司结合精神文明建设工作，积极组织开展“相约古镇情满电力”暨我们的节日·七夕主题活动。</div>
+	<div class="translation" id="b2s-114">The Danfeng County company of Shangluo Power Supply Company incorporated ideological progress, and enthusiastically carried out the "Ancient city rendezvous; love-filled power" and our holiday - Chinese Valentine's Day activities.</div>
+	<div class="translation" id="b2s-114">Danfeng County Company in the and and ancient with civilization, organized the carried construction out actively spiritual Shangluo conjunction "Meet of town Power Company, the love full festival Supply power" our of and of Tanabata theme activities.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-115">b2s-115</div>
+	<div class="source" id="b2s-115">排污权交易自1968年由美国经济学家戴尔斯提出以来,20世纪70年代开始美国将其应用于大气及河流污染源的管理。</div>
+	<div class="translation" id="b2s-115">Emissions trading was first proposed by the US economist Dales in 1968. In the 1970s, the US made use of this to manage sources of atmospheric and river pollution.</div>
+	<div class="translation" id="b2s-115">Emissions trading was proposed by American economist John Dales back in 1968. Since the 1970s in the 20th Century, the United States has applied it to control pollution in the atmosphere and river.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-116">b2s-116</div>
+	<div class="source" id="b2s-116">该企业位于青岛老城区的厂区去年年底全面停产,环保搬迁至平度的新厂区。</div>
+	<div class="translation" id="b2s-116">The same company had a plant in Qingdao's old town but was shut down last year and relocated to Pingdu for environmental concerns.</div>
+	<div class="translation" id="b2s-116">The enterprise is located in the old city of Qingdao plant at the end of last year to stop production, environmental protection moved to the new plant in Pingdu.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-117">b2s-117</div>
+	<div class="source" id="b2s-117">美国红十字会人员估计，大约有100人无家可归，其中60至70人暂留附近小区中心的收容所，他们大都是西裔居民。</div>
+	<div class="translation" id="b2s-117">An American Red Cross staff estimates that this has left 100 people homeless, of which 60 to 70 people will stay in temporary shelters at the nearby community center; most of them were Hispanic.</div>
+	<div class="translation" id="b2s-117">The U.S. Red Cross estimated around 100 homeless including  60-70 stayed in the shelter of the neighboring community center, mostly are Spanish Americans.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-118">b2s-118</div>
+	<div class="source" id="b2s-118">孕妈不仅可以免费24小时和一对一的主管医生问诊，还可以付费定向寻医问诊。</div>
+	<div class="translation" id="b2s-118">Pregnant mothers are not only entitled to free 24-hour and one-on-one consultation with a doctor in charge, but are also entitled to paid, directed medical consultation.</div>
+	<div class="translation" id="b2s-118">"On a 24-hour basis, pregnant mothers can not only receive free one-on-one consultations with qualified doctors, and also receive paid medical diagnosis."</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-119">b2s-119</div>
+	<div class="source" id="b2s-119">此次鱼跃与九州通的合作正是瞄准了市场的需求，帮助医院搭建先进供应链管理系统，并以此为契机谋求更多合作。</div>
+	<div class="translation" id="b2s-119">The cooperation between Yuyue and Kyushu Tong is precisely aimed at the needs of the market, helping hospitals to build advanced supply chain management system, and using this as an opportunity to seek more cooperation.</div>
+	<div class="translation" id="b2s-119">The cooperation between Jiangsu Yuyue Mdcl Eqpmnt & Spply Co Ltd. and Jiuzhou Tongji Machinery Co., Ltd. targets the market demands, supports hospitals implement advanced supply chain management systems and use this as an opportunity to seek further collaboration.</div>
+</div>
+
+<div class="item">
+	<div class="title" id="b2s-120">b2s-120</div>
+	<div class="source" id="b2s-120">这位普通农民的女儿，就是11日晚为中国斩获里约奥运会女子50米步枪三姿决赛银牌的张彬彬。</div>
+	<div class="translation" id="b2s-120">This average farmer's daughter is Zhang Binbin who won the silver medal in the 50 meter rifle three positions event at the Rio Olympic Games for China on the evening of the 11th.</div>
+	<div class="translation" id="b2s-120">This daughter of a common farmer is Zhang Binbin, who just won a silver medal for China in the 50 meter rifle three positions in the Rio Olympics.</div>
+</div>
+
+
+      </body>
+    </html>
+    

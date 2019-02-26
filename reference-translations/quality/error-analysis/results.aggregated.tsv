@@ -1,0 +1,21 @@
+human_a	human_b	mt	Error Category
+81	103	118	Any
+33	36	48	Incorrect Word (Semantics)
+18	16	37	Incorrect Word (Grammaticality)
+22	62	34	Missing Word (Semantics)
+15	7	22	Missing Word (Grammaticality)
+16	19	30	Named Entity
+1	10	10	NE - Person
+5	4	6	NE - Location
+4	4	8	NE - Organization
+1	1	3	NE - Event
+5	1	7	NE - Other
+1	4	17	Word Order
+1	1	6	Factoid
+2	4	4	Word Repetition
+15	18	27	Collocation
+0	1	0	Unknown Words/Misspellings
+6	9	12	Context (Register, Coreference, etc.)
+51	52	85	Incorrect Word
+37	69	56	Missing Word
+129	177	237	Total

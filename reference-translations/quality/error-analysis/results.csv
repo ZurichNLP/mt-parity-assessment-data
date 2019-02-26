@@ -1,0 +1,451 @@
+Item,Example,Incorrect Word (Semantics),Incorrect Word (Grammaticality),Missing Word (Semantics),Missing Word (Grammaticality),Named Entity,NE - Person,NE - Location,NE - Organization,NE - Event,NE - Other,Word Order,Factoid,Word Repetition,Collocation,Unknown Words/Misspellings,"Context (Register, Coreference, etc.)",Notes
+1,A,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"Missing info about when diamonds are purchased, ""as agent"""
+1,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"Missing info that the diamonds were purchased on someone's behalf, ""just like that"""
+1,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"""On her behalf"" is incorect (should be on someone's behalf), ""at a time"""
+2,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Should be ""deep"" instead of ""growing"", hard to understand what ""growing partnership between the two"" is actually referring to (Apple and Suning)"
+2,B,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Should be ""service operator"", ""will inevitable"""
+2,C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Operators should be plural
+3,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""largest"" -> ""oldest"""
+3,B,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""largest"" -> ""oldest"", ""standard deviation of 120 years old"""
+3,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""largest"" -> ""oldest"""
+4,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""national"" -> ""ethnic"", omitted information about coming from groups"
+4,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing descriptors about the performance, omitted information about coming from groups"
+4,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""approximately"" -> ""more than"""
+5,A,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,"""contradictions"", dropped ""acquire/purchase"", ""the first time low prices to start"""
+5,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+6,A,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,"Untranslated ""Shejian"" in organization name, missing ""the"" on Fujian Provincial team"
+6,B,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""the"" on ""Fujian Province team"""
+6,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+7,A,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,"Xiamen Shooting team not meant to be named organization, ""asked the team members not to move"" is supposed to refer to the exercise"
+7,B,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,"Xiamen Shooting team not meant to be named organization, missing details about the nature of the endurance exercise"
+7,C,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""A standing posture rifle firing training"", ""standing posture rifle firing"" is incorect"
+8,A,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+8,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Missing that the workers had to clean the broken beak
+8,C,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+9,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+9,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+9,C,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Beidaliao -> Beidaliu
+10,A,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,"Missed information as to where the producer worked, Gracia -> Grecia"
+10,B,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Paul Heredia -> Paula Heredia
+10,C,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+11,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""over time"" -> ""overtime"", organizer should probably be plural"
+11,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,missing that the organizers worked on the night of the 9th
+11,C,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,"""at the earliest"", missing articles on dates, date format"
+12,A,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""was"" -> ""and"", ""represents the goodness"", missing some values"
+12,B,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"""Mountain Forest Yard"", ""inherits"" -> ""represents"""
+12,C,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,"""ShanLinChang"", ""Lei Feng"", ""Finalist Winner"", ""beauty of our ear"""
+13,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""same departments"""
+13,B,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,""";social networking platform"" -> ""a social networking platform"""
+13,C,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"entrepeneurial/business support attached to wrong thing, ""doctor-patient relationship"" -> ""doctor patient relationships"""
+14,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""stipulating"", 2012 Olympics advertising strategy is ambiguous"
+14,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+14,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+15,A,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""at Xiang'an District"" -> ""in Xiang'an District"", missing ""at his home"""
+15,B,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""few days ago"", ""Xiang'an District of Xiamen"" -> ""the Xiang'an District of Xiamen"""
+15,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+16,A,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"""medals, medals"""
+16,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,plaques -> medals
+16,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+17,A,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,"missing that she just missed the silver several times, ""in her 16 years of her shooting career"""
+17,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,gender wrong
+17,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""brushed past"" is weird in this context"
+18,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+18,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+18,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing what kind of gangs they are (thieves, muggers, conmen)"
+19,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"not specifying police, ""throughout the cases"" -> ""while investigating the cases"""
+19,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+19,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+20,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+20,B,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""technology of the future"" missing, missing the in ""not for next generation"""
+20,C,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Thomas Langer -> Thomas Lange
+21,A,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"should be ""moved for environmental reasons"", ""Old Town of Qingdao"" -> ""the Old Town of Qingdao"""
+21,B,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,"""at the end of last year"" in the wrong place, very incoherent (missing and incorrect function words)"
+21,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22,B,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,"""of the 4 Olympic dynasties"" -> ""of 4 Olympic games"""
+22,C,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""1 bronze medals"", missing ""in 4 games"""
+23,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+23,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+23,C,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"fragment after semicolon -> ""and was"" is better, ""cautious"" -> ""nervous"""
+24,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+24,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+24,C,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Julius Nilsson -> Julius Nielsen
+25,A,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,"doesn't specify ""human friends"", lots of awkward phrasing (""to be able to see her"")"
+25,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"doesn't convey the ""not only"", translation of ""it"" when gender was given earlier"
+25,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"translation of ""it"" when gender was given earlier"
+26,A,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,US Embassy Residence -> residence of the US ambassador
+26,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Missing UK
+26,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""collection of photos"" -> atlas"
+27,A,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,"""questions"" instead of ""blame"", no naming of ""Mdm Yin"", missing that the date talks about the news spreading"
+27,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+27,C,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"family ""accountability"", ""condolence"" -> ""sympathy"", ""people"" -> ""girl"", ""after the news spread"" and ""friends and family"" in the wrong place"
+28,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+28,B,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""payment buisness undertaking"""
+28,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,missing type of merged institution
+29,A,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""in another word"", ""environmental offense"" -> ""environmental violations"""
+29,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+29,C,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Currently sounds like a fragment
+30,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+30,B,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,"""Ali"" -> ""Alibaba"""
+30,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+31,A,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""not only... and even"", weird insertions of the definite article ""the"", singular-plural mismatch ""people's social life"""
+31,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+31,C,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""social circle of cyberspace"", missing ""quietly changing/replacing"""
+32,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""look forward"" seems closer to hope in this sentence but not really fully incorrect"
+32,B,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""two-times world champion"", ""breakthrough for zero gold medals"""
+32,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""blowout"" isn't exactly accurate - it's more about unexpectedly forcing themselves in"
+33,A,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""comply with the one"""
+33,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,missing information about continuous study
+33,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""stage results"" -> ""step-by-step approach"""
+34,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""achieved for"" -> ""achieved by"""
+35,A,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,"""independeat"", ""FIT"" stands for ""free, independent traveler"""
+35,B,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,"Not translating into multiple sentences, missing information about independent traveler, missing point about enforcement, ""retail market"" -> ""FIT market"", ""with the low rate"""
+35,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""there is a low possibility"" has a different conntation than the original source, which is closer to ""very unlikely"""
+36,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""people believe"""
+37,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""accompanied by each other"" -> ""compatible, harmonious"""
+37,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+37,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+38,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+38,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""approximately"""
+38,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+39,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+39,B,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"singular-plural for ""one... affect"", alkalinity isn't an explanation"
+39,C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""alkalinity of the water quality"""
+40,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""positive"""
+41,A,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""the iPhone 6"", ""the iPhone 7"""
+41,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+41,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+42,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+42,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""payment business"", ""the relevant organization"" should be plural"
+42,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""payment business"" should be plural"
+43,A,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Xigongyuan should probably be translated
+43,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Missing that the tourists are FITs
+43,C,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing that the tourists are FITs, ""the West Park"
+44,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+44,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+44,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+45,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing ""the number of"""
+45,B,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""strong fan"", missing ""many times more"", ""friends he meet online"""
+45,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""in-depth"" -> ""deep"", ""number of people online"" -> ""online contacts"""
+46,A,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""Products... is"" agreement, missing ""typically"""
+46,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+46,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+47,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+47,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+47,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+48,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""it is understood"" -> ""it is reported"""
+48,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+48,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""only allowed to return"" is too strong"
+49,A,1,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,"inconsistent reversal of Wang Dong's name, source doesn't say anything about Liu and Dong Wang getting heated, ""were both"" -> ""both were"""
+49,B,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""the yellow card one after another"" -> ""yellow cards"""
+49,C,1,1,1,0,1,1,0,0,0,0,1,0,0,1,0,0,"""Krimetz"" -> Krimets, spacing for Chinese names, incoherent semantically and gramatically, missing information on both receiving yellow cards"
+50,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+50,B,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""respiratory"" -> ""respiratory medicine"", fragment"
+50,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""volunteer medical"""
+51,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+51,C,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""mini floats mobile"" -> ""mini flower card"", missing information that the event was fulfilling"
+52,A,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing what about the NBA Simmons has to adapt to, combining two independent clauses with a comma, missing ""long-term"""
+52,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"""won't be right away"" - something is weird about this formality, missing ""fully recover"""
+52,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+53,A,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,"Gracia -> Grecia, ""budding"" is wrong"
+53,B,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+53,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""tropical feel"" - needs more information about what kind of tropical feel"
+54,A,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,"Gracia -> Grecia, ""it"" -> ""her"""
+54,B,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,"wrong date, ""press release"" -> ""press conference"", missing that the beak is plastic"
+54,C,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+55,A,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,"Missing that Zhang Binbin and her mother share the same last name, quotation should ideally convey the persuasion (""kids"" -> ""persuaders"")"
+55,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+55,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gender of Zhang Binbin wrong, ""novelists"" -> persuaders"
+56,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Missing that all this took place at the beginning of her career
+56,B,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Ungrammatical - ""began shooting career path several `reversal`"""
+56,C,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"Missing ""girl"", weird wording ""as she had `Beautiful Hands`"""
+57,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""were eliminated"" -> ""withdrew"""
+57,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+57,C,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"""all four"" -> ""the top four"", ""Monday"" -> ""the 11th"""
+58,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,B,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""Zhang Binbin and because of the delay into the national team"", ""once because there was no hope"" - ordering is off"
+58,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"""being in"" -> ""joining"", ""once again"" - most likely many times because it took a long time to get to the national team, ""once again"" -> ""at one point"""
+59,A,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,"""Aging Problem Commission"", ""released notice"""
+59,B,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""Half-price Public Transportation of City Buses"" -> ""on City Buses"", missed information about the policy being preferential"
+59,C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""the preferential policy officially implemented from September 1 this year"""
+60,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+60,B,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,"""Dooley"" -> ""Du Li"""
+60,C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""for training and prepare for..."""
+61,A,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""floating in the palm of your hand"" -> ""light"", missing ""on behalf of"", ""woman surnamed Liu"", ""described... in regards to"""
+61,B,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""at Antwerp"" -> ""in Antwerp"", ""domestic media"" -> ""mainland media"", ""was describing"" -> ""described"""
+61,C,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""on behalf of..."", ""a light handful, worth nearly a million dollars"" fragment"
+62,A,1,0,1,0,1,0,1,0,0,0,0,1,0,0,0,0,"""newly constructed train station"" -> ""Xinzhu train station"", ""trips"" -> ""trains"", ""84 train cars"" -> ""84 trains"", ""84%"" -> ""47%"", ""of which"" -> ""including"", missing ""Central Asia"""
+62,B,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""had a total... traveled to"", missing ""export"""
+62,C,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"""vehicles"" -> ""railcars"", 84 refers to trains not exported goods"
+63,A,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,Qiwangdianzi -> Qiujiadianzi
+63,B,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"Qiujiadian -> Qiujiadianzi, ""free medical services"" -> ""volunteer medical consultants"""
+63,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,B,1,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,"""original mountain"" -> ""Yuanshan"", ""licensing"" -> ""award"", incoherent"
+64,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+65,A,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,"missing ""upper"", Chuck Hall -> Chuck Hull"
+65,B,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+65,C,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Gracia -> Grecia
+66,A,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""the right side of free kick"" -> ""right side free kick"", ""a small angle to hit high"""
+66,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+66,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing information about breaking through, angle of free kick"
+67,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""steel which is harder"" -> ""harder steel"" (kind of ambiguous wording)"
+67,B,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"Missing ""of their homes"", ""steel with stronger materials"""
+67,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+68,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing ""to provide multiple layers of defense"", ""heavily guarded"" isn't exactly stated in the source"
+68,B,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing ""to provide multiple layers of defense"", ""internal walls"", ""cars"" -> ""vehicle barriers"", ""building"" -> ""residence"""
+68,C,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""provide a multiple layers of defense"""
+69,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing ""with a bad pollution rating"""
+69,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"""existing polluting companies"" - register is off"
+69,C,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,"""carbon credits"" -> ""units/companies with bad pollution ratings"", ""EIA"" -> ""an EIA"", ""charged with the usage fee"""
+70,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"""photo shooting"" -> ""photo shoot"", awkward ""and where you can experience"", missing that the workshops are mobile"
+70,B,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,"""pyelan"" -> ""Yulan"", ""not only in the format of comics to introduce"", ""scene"" -> ""venue"""
+70,C,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"""3D photograph area"""
+71,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+71,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+71,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+72,A,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,"""4 after the incident"" -> ""after the incident on the 4th"", doesn't say anything about ""hit-and-run"", ""Maritime Administration"" -> ""Maritime Safety Administration"""
+72,B,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,"""Xiuying Port in Haikou"" -> ""Haikou Xiuying Port"" (this should be fine, though), ""Maritime Affairs Bureau"" -> ""Maritime Safety Administration"""
+72,C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""After the incident on the 4th day"" -> ""After the incident on the 4th"""
+73,A,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,"fragment, ""metal"" -> ""medal"", ""woman"" -> ""women's"""
+73,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""shooting"" -> ""event"""
+73,C,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,fragment
+74,A,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,"""Ilmaz"" -> ""Yilmaz"", ""national security"" -> ""Guoan"", ""knife break"" -> ""scored"", last part is incoherent, ""decided that the penalty"""
+74,B,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""breakthrough"" -> ""break through"", missing details about how Zheng Yourong intercepted Yilmaz"
+74,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+75,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+75,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+75,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""it was reported"""
+76,A,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,"""Maritime Administration"" -> ""Maritime Safety Administration"""
+76,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+76,C,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""asset detainment"" -> ""property protection"", ""filed ... in the court"" -> ""with the court"", probably plural victim"
+77,A,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""the falsifying the clarity"", missing ""post-sale"""
+77,B,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,"""are alleged to exist in three major problems"", ""and so on"" - weird register"
+77,C,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,"Missing article on news article, ""purity"" -> ""clarity"", ""post-sales guarantee"" -> ""warrantee"""
+78,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+78,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Missing ""in recent years"", ""other countries and regions"""
+78,C,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""and in other countries"" -> ""and other countries"", missing ""regions"""
+79,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+79,B,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"missing ""speed"", ""such as the convenience"", ""cater"" -> ""preferred by"", ""especially cater"" doesn't match at all with the subject, previous sentence included in the candidate selection for some odd reason (not counted)"
+79,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,relative clause in an awkward place (not counted but arguably word order)
+80,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"never said anything about ""medal-winning"" in source, missing ""in preliminary rounds"""
+80,B,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"""11 day and night"" -> ""on the night of the 11th"", ""the Zhang Donghong couple"", ""the daughter"" -> ""his daughter"", ""all the way to catch up"", incoherent"
+80,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""a number of"" - could be more specific ""dozens"", missing ""in preliminary/previous rounds"""
+81,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""learning"" associated with traditional crafts"
+81,B,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""learning traditional crafts"" -> ""opportunity to learn traditional crafts"""
+81,C,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""France have"", ""traditional characters"" -> ""ancestors"""
+82,A,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""is"" -> ""will be"""
+82,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+82,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+83,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,series of tests on what?
+83,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""to testify"" -> ""to confirm/verify"""
+83,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+84,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+84,B,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""decreased from"" -> ""decreased"", missing ""first"""
+84,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+85,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""two different people"" - ""various people"", missing ""right"" and ""efficiency/ability"""
+85,B,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""efficiency to speak the same way"""
+85,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+86,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,missing who qualified
+86,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+86,C,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""after the qualifiers for the Rio Olympics"" should be after ""In March 2016"""
+87,A,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,"Gracia -> Grecia, Langer -> Lange, missing ""reporter"""
+87,B,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""injury for Grecia"" -> ""injury to Grecia"", missing ""invasive"""
+87,C,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""injury on Grecia"" -> ""injury to Grecia"""
+88,A,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""facilitate the elderly"" - doing what?, weird parallel structure, incoherent"
+88,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+88,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+89,A,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"December never mentioned, didn't translate Shuangxiu and Shuangcheng, ""pilot project"" should be plural"
+89,B,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""implementation"" -> ""implementation of the"", missing ""relevant"" when referring to departments, name of the city"
+89,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""Double R"", "
+90,A,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"""a rate of not less than 10 yuan per person per day"" fragment, missing ""standard"""
+90,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+90,C,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""standard"", ""fee"" -> ""allowance"""
+91,A,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,"Krimmetz -> Krimets, ambiguity with who was unhappy"
+91,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing information on Fernando's movement - probably incorrectly translated as ""on the right"""
+91,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+92,A,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,"Wang Zhen's gender wrong, officially the World Championship should be ""Athletics"", missing ""Race Walking Challenge"""
+92,B,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""personal event"" -> ""individual event"""
+92,C,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,"""Group Walking"" -> ""Race Walking"", never specifies Wang ""who?"", ""upgrading his individual event title"" is strange"
+93,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+93,B,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""regress"" -> ""regression"""
+93,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"doesn't quite convey the ""some have improved, some have declined"""
+94,A,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""to the Tianchi"""
+94,B,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""At 8 AM on the morning of the previous day"""
+94,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""private tours"" was never mentioned in the source"
+95,A,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""years"", ""experienced the issues"""
+95,B,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"""Dame"" is weird in context (register), repetition of ""breathless"", ""the"" -> ""a"""
+95,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"""Aunt"" is weird in context (register)"
+96,A,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"""as"" -> ""of"", companies should be plural in context"
+96,B,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,fragments
+96,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,never translated abbreviations
+97,A,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,"""fruit"" -> ""Apple"", ""powder"" -> ""fans"", fragment, ""generation-to-generation"" -> ""every other generation"""
+97,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+97,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""every generation"" -> ""every other generation"""
+98,A,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""professional"" -> ""specializations"", missing ""good academic background"", ""new"", fragment"
+98,B,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""family"" -> ""families"", ""and free tuition except for those with specialized scholarships"" -> ""tuition-free specializations"", missing ""new"", ""good character"""
+98,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+99,A,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"consistency between undertakings/projects, repetition of implemented"
+99,B,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""implement"" -> ""to implement"", ""in the society"" -> ""in service"""
+99,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""action"" -> ""projects"""
+100,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"no ""he said"""
+100,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""Green field"" -> ""greenfield"""
+100,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""annual"""
+101,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""under the name Hefei"" -> ""in Hefei"""
+101,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+101,C,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""mortgage outstanding"" -> ""outstanding mortgage"""
+102,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""chickens"" -> ""egg-laying chickens/hens"""
+102,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+102,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+103,A,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""portal website"" -> ""the portal website"", missing ""and counties"""
+103,B,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,"""in addition to"" -> ""with the exception of Youyang"", ""to the"" -> ""on"", ""statistics"" in the wrong place, missing ""districts"", ""different degrees of high temperature allowance"""
+103,C,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,"""Fuyang"" -> ""Youyang"", missing ""subsidies"""
+104,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+104,B,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"""and once again"" -> ""once again"", ""take the initiative"" -> ""took the initiative"", ""return to the school"" - unclear what kind of school without information about studying"
+104,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+105,A,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"""transfer"" is wrong, ""service"" -> ""the service"", ""documents relevant to the Payment Business License"" -> ""relevant Payment Business Licenses"""
+105,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+105,C,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""business undertaking work"", ""License"" -> ""Licenses"""
+106,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+106,B,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,"""along with"" -> ""in"", missing article on ""busy financial metropolis"", ""large-scaled"" -> ""large-scale"""
+106,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+107,A,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"""Jinyang"" -> ""Mianyang"""
+107,B,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""returned"" should refer to Huang Yilin returning home to Mianyang"
+107,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+108,A,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""of the ... companies"" -> ""the"" is weird"
+108,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+108,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+109,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+109,B,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,1,"""whether it is to meet or call"", pronoun wrong, ""said"" -> ""talked about"", second half is a fragment, ""with her parents"" probably should be moved to the end"
+109,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+110,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+110,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+110,C,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,"missing pronouns, ""out of curiosity"" should come after ""stepped forward"", ""just go not far away"" is incoherent"
+111,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""when talking about the debt"""
+111,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"source talks about the debt being an important problem, not the other way around"
+111,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+112,A,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,"""Owen"" -> ""Irving"""
+112,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+112,C,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,"""Osman"" -> ""Irving"", ""the top three players"" -> ""among the top three players"", ""as give the ball"" -> ""as he gives the ball"""
+113,A,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,"""highly qualified"" for diamonds, ""And Antwerp"" is extremely awkward in context"
+113,B,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""largest"" -> ""one of the largest"", ""craftsman"" -> ""craftsmen"", missing ""the"" in the second sentence"
+113,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"""their"" to refer to ""Antwerp"""
+114,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""this freight train"" -> ""this class of freight trains"""
+114,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing what type of ""categories"""
+114,C,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,"missing ""and"", missing ""six"", ""covers"" -> ""covering"", incoherent due to weird ordering"
+115,A,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,"""compete with lonely souls for sacrificial offerings"" -> ""Ghost Grappling Competition"""
+115,B,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,"""orphans race"" -> ""Ghost Grappling Competition"", ""to participate"" -> ""will participate"", lots of awkward parallel structure"
+115,C,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"""we had a"" -> context, ""a team"" -> ""teams"", missing ""cooperation"" with schools"
+116,A,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,"""Hamir"" -> ""Hamill"", missing ""another"" on 34 people"
+116,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+116,C,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"""in hospital"" -> ""in the hospital"""
+117,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+117,B,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,"""in"" -> ""after"", ""small life"" -> ""new life"", need some way of breaking up the independent clauses"
+117,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""of the child"""
+118,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+118,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""mainstream"""
+118,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""point"" -> ""points"", ""lines"" -> ""routes""?"
+119,A,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,repetition
+119,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+119,C,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,"missing ""the"" on ""Qingdao..."", unnecessary ""if"", ""through the purchase... to"""
+120,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+120,B,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"""organ"" -> ""agency"", missing article on ""household registration"
+120,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+121,A,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""environmental capacity resources"""
+121,B,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Source doesn't talk about ""limiting"" polluters, missing details about ownership, use, resources"
+121,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+122,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+122,B,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"Missing what the organizers did to the event, ""meaning behind ... is about"""
+122,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Missing signficiant amounts of information
+123,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+123,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+123,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+124,A,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""is likely to reach"" -> ""could be as old"""
+124,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+124,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+125,A,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"""new station"" -> ""Xinzhu Station"""
+125,B,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"""Xinzhou station"" -> ""Xinzhu Station"""
+125,C,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"""newly constructed station"" -> ""Xinzhu Station"""
+126,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+126,B,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""because they were both active speakers"" shouldn't be associated with ""meeting in a large group"" (""and"" should be moved)"
+126,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+127,A,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,"""Kyushu Tong"" -> ""Jointown Pharmaceutical"", missing article on management system"
+127,B,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""hospital"" should be plural (grammatical)"
+127,C,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,"""Jiuzhou Tongji Machinery Co., Ltd"" -> ""Jointown Pharmaceutical"", ""the market demands"", ""implement"" -> ""implementing"", subject-verb agreement on ""use"""
+128,A,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,"repetition of ""compensation"", missing from whom the family was demanding compensation"
+128,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+128,C,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"""the court"" -> ""in court"", ""to compensation"" -> ""for compensation"", repetition of ""compensation"""
+129,A,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""pain"""
+129,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+129,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+130,A,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,"""The lowest price."" fragment, missing verb in second half"
+130,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+130,C,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,wrong currency
+131,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+131,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+131,C,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""categories"" -> ""varieties"""
+132,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""all"", ""actively on the list"" -> ""to ship their goods on the train"", ""class"" -> ""service"""
+132,B,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""according to information"" without from where, ""and eagerly waits to be loaded onto the trains"" - unclear what this is supposed to mean"
+132,C,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""bound for Central Asian"" -> ""by the Central Asia service"", ""Central Asian"" -> ""Central Asia"""
+133,A,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,"Bank of China -> People's Bank of China, inconsistent translation of Payment Business License"
+133,B,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""and prudently"" out of place"
+133,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""prudently"""
+134,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+134,B,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"missing ""recently"""
+134,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+135,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+135,B,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,needs something to split the headline
+135,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,"headline, missing that it's dealing with FITs"
+136,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+136,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+136,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+137,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+137,B,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,"""not included considered part"" - repetition, missing ""therefore"""
+137,C,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"""such as beverages"" -> ""such as with beverages"", ""not covered by"" -> ""not part of"""
+138,A,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,"""Takeyama"" -> ""Zhushan"", ""gather in"" -> ""visit"""
+138,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""about"" -> ""an average of"""
+138,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+139,A,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""the reporter of the ChinaNews.com"""
+139,B,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"missing source, ""gold content"" -> ""value"""
+139,C,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,China News Service -> ChinaNews.com
+140,A,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,"Full name -> ""Chang Yubo"""
+140,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+140,C,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,"""CFLD""?, full name ""Chang Yubo"""
+141,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+141,B,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,"""Dolly"" -> ""Du Li"", ""rings"" -> ""points"""
+141,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+142,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+142,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+142,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""has"" -> ""have"""
+143,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+143,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+143,C,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,"""Implementation Opinions"", repetition of ""repeal"", second half is a little off"
+144,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+144,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+144,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+145,A,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,"fragment, missing ""people without household registration"", weird word order, ""file"" -> ""filed"", ""effective"" -> ""valid"""
+145,B,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+145,C,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""effectiveness"" -> ""validity"", missing ""one-by-one"", ""file"" -> ""filed"""
+146,A,1,1,0,1,1,1,0,1,0,0,1,0,0,0,0,0,"""Park Cheng"" -> ""Piao Cheng"", ""in front of the cross"" -> ""made a forward cross"", fragment, ""force sails"" -> ""Lifan"", this desperately needs to be split/reworded to be grammatical"
+146,B,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,"""Pu Cheng"" -> ""Piao Cheng"", ""to the left"" -> ""from the left"", missing info as to what kind of shot Dabao made"
+146,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+147,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+147,B,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,"missing ""in Qingdao"", ""first in the nation"", some awkward wording"
+147,C,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"""first single"" -> ""first trade"", weird placement of ""first"", ""is"" -> ""being"""
+148,A,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""issues would be ... and is"""
+148,B,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""chance for"" -> ""chance of"", ""lowering his chances of performing"" -> ""affecting his performance"""
+148,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,slight register issue
+149,A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+149,B,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"""with"" -> ""from"""
+149,C,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,missing final clause
+150,A,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"""bright spot"" -> ""highlights"", still not grammatical despite being a headline"
+150,B,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"""new highlight"" only for traditional customs"
+150,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
